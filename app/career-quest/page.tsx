@@ -66,7 +66,16 @@ function CareerQuestPageContent() {
   console.log("CareerQuestPage mounted with:", { roleId, roleName, domainId, startingLevel });
   
   const handleBack = () => {
-    router.back();
+    console.log("\n🔙 ========== NAVIGATION: Back Button Clicked (Career Quest) ==========");
+    console.log("📝 Role ID:", roleId);
+    console.log("📝 Role Name:", roleName);
+
+    // Navigate back to deep dive page
+    console.log("🔄 Navigating back to deep dive page...");
+    router.push('/deep-dive');
+
+    console.log("✅ Navigation initiated");
+    console.log("🔙 ========== NAVIGATION COMPLETE ==========\n");
   };
 
   const handleStartNode = (nodeId: string) => {

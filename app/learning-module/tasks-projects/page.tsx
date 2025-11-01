@@ -44,39 +44,50 @@ function TasksProjectsPageContent() {
   useEffect(() => {
     const loadTaskProject = async () => {
       try {
+        console.log("\n🎯 ========== CLIENT: Loading Task/Project ==========");
         setLoading(true);
         setError(null);
-        
-        console.log("Loading task/project:", { taskId, projectId, moduleId, moduleName });
-        
+
+        console.log("📝 Task ID:", taskId);
+        console.log("📝 Project ID:", projectId);
+        console.log("📝 Module ID:", moduleId);
+        console.log("📝 Module Name:", moduleName);
+
         // Determine which ID to use (taskId or projectId)
         const itemId = taskId || projectId;
         if (!itemId) {
+          console.error("❌ No task or project ID specified");
           throw new Error('No task or project ID specified');
         }
-        
+
+        console.log("📝 Using Item ID:", itemId);
+        console.log("📤 Calling /api/learning-module/project...");
+
         // Call our API to get the task/project content
         const response = await fetch('/api/learning-module/project', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({ 
-            projectId: itemId, // Using projectId parameter for both tasks and projects
+          body: JSON.stringify({
+            projectId: itemId,
             moduleId,
             moduleName,
-            userId: 'default-user' // This would be dynamically determined
+            userId: 'default-user'
           }),
         });
-        
-        console.log("Task/Project API response status:", response.status);
-        
+
+        console.log("📥 Task/Project API response status:", response.status);
+
         if (!response.ok) {
+          console.error("❌ Task/Project API returned error status:", response.status);
           throw new Error('Failed to load task/project content');
         }
-        
+
         const data = await response.json();
-        console.log("Received task/project data:", data);
+        console.log("✅ Received task/project data");
+        console.log("📊 Title:", data.title);
+        console.log("📊 Type:", data.type);
         
         const taskProjectData: TaskProject = {
           id: data.id || itemId,
@@ -91,11 +102,16 @@ function TasksProjectsPageContent() {
           moduleId: data.moduleId || moduleId,
           moduleName: data.moduleName || moduleName
         };
-        
+
+        console.log("✅ Setting task/project state...");
         setTaskProject(taskProjectData);
+        console.log("🎯 ========== CLIENT: Task/Project Loaded Successfully ==========\n");
       } catch (err: any) {
-        console.error('Error loading task/project:', err);
+        console.error("\n❌ ========== CLIENT: Error Loading Task/Project ==========");
+        console.error('🚨 Error:', err);
+        console.error('📋 Error message:', err.message);
         setError('Failed to load the task/project. Please try again.');
+        console.error("❌ ========== ERROR END ==========\n");
         
         // Fallback to mock data
         const mockTaskProject: TaskProject = {
@@ -183,7 +199,38 @@ function TasksProjectsPageContent() {
   }, [timerActive]);
 
   const handleBack = () => {
+    console.log("\n🔙 ========== NAVIGATION: Back Button Clicked (Tasks/Projects) ==========");
+    console.log("📝 Current Project ID:", projectId);
+    console.log("📝 Current Module ID:", moduleId);
+    console.log("📝 Current Module Name:", moduleName);
+
+    // Try to get navigation context from localStorage
+    try {
+      const storedRoadmapData = localStorage.getItem('currentRoadmapData');
+      if (storedRoadmapData) {
+        const roadmapData = JSON.parse(storedRoadmapData);
+        console.log("✅ Found roadmap navigation data in localStorage");
+        console.log("📊 Navigation data:", roadmapData);
+
+        // Navigate back to learning module with proper parameters
+        const { nodeId, roleId, roleName, domainId, nodeTitle } = roadmapData;
+        if (nodeId) {
+          console.log("🔄 Navigating back to learning module with stored parameters...");
+          router.push(`/learning-module?nodeId=${nodeId}&roleId=${roleId || ''}&roleName=${roleName || ''}&domainId=${domainId || ''}&nodeTitle=${encodeURIComponent(nodeTitle || '')}`);
+          console.log("✅ Navigation initiated with explicit route");
+          console.log("🔙 ========== NAVIGATION COMPLETE ==========\n");
+          return;
+        }
+      }
+    } catch (e) {
+      console.warn("⚠️ Could not parse roadmap navigation data:", e);
+    }
+
+    // Fallback: Use router.back()
+    console.log("🔄 Using router.back() as fallback...");
     router.back();
+    console.log("✅ Navigation initiated");
+    console.log("🔙 ========== NAVIGATION COMPLETE ==========\n");
   };
 
   const handleStartTimer = () => {

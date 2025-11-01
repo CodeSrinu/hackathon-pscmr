@@ -36,34 +36,69 @@ function CheatSheetPageContent() {
   useEffect(() => {
     const loadCheatSheet = async () => {
       try {
+        console.log("\n🎯 ========== CLIENT: Loading Cheat Sheet ==========");
         setLoading(true);
         setError(null);
-        
-        console.log("Loading cheat sheet:", { cheatSheetId, moduleId, moduleName });
-        
+
+        console.log("📝 Cheat Sheet ID:", cheatSheetId);
+        console.log("📝 Module ID:", moduleId);
+        console.log("📝 Module Name:", moduleName);
+
+        // First, try to get cheat sheet from localStorage (passed from video lecture page)
+        const storedLectureData = localStorage.getItem('currentLectureData');
+        if (storedLectureData) {
+          try {
+            const lectureData = JSON.parse(storedLectureData);
+            console.log("✅ Found lecture data in localStorage");
+            console.log("📊 Has cheat sheet:", !!lectureData.cheatSheet);
+
+            if (lectureData.cheatSheet && lectureData.cheatSheet !== 'Cheat sheet not available') {
+              // Use the cheat sheet from the lecture data
+              const cheatSheetData: CheatSheet = {
+                id: cheatSheetId || lectureData.lectureId,
+                title: `${lectureData.lectureTitle || moduleName} - Cheat Sheet`,
+                content: lectureData.cheatSheet,
+                duration: '10 minutes',
+                moduleId: moduleId || lectureData.moduleId,
+                moduleName: moduleName || lectureData.moduleName
+              };
+
+              console.log("✅ Using cheat sheet from lecture data");
+              setCheatSheet(cheatSheetData);
+              setLoading(false);
+              console.log("🎯 ========== CLIENT: Cheat Sheet Loaded from Cache ==========\n");
+              return;
+            }
+          } catch (e) {
+            console.warn("⚠️ Failed to parse stored lecture data:", e);
+          }
+        }
+
+        console.log("📤 Calling /api/learning-module/cheat-sheet...");
+
         // Call our API to get the cheat sheet content
         const response = await fetch('/api/learning-module/cheat-sheet', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({ 
+          body: JSON.stringify({
             cheatSheetId,
             moduleId,
             moduleName,
             userId: 'default-user' // This would be dynamically determined
           }),
         });
-        
-        console.log("Cheat Sheet API response status:", response.status);
-        
+
+        console.log("📥 Cheat Sheet API response status:", response.status);
+
         if (!response.ok) {
           throw new Error('Failed to load cheat sheet content');
         }
-        
+
         const data = await response.json();
-        console.log("Received cheat sheet data:", data);
-        
+        console.log("✅ Received cheat sheet data");
+
         const cheatSheetData: CheatSheet = {
           id: data.id || cheatSheetId,
           title: data.title || 'Cheat Sheet',
@@ -72,8 +107,10 @@ function CheatSheetPageContent() {
           moduleId: data.moduleId || moduleId,
           moduleName: data.moduleName || moduleName
         };
-        
+
+        console.log("✅ Setting cheat sheet state...");
         setCheatSheet(cheatSheetData);
+        console.log("🎯 ========== CLIENT: Cheat Sheet Loaded Successfully ==========\n");
       } catch (err: any) {
         console.error('Error loading cheat sheet:', err);
         setError('Failed to load the cheat sheet. Please try again.');
@@ -151,12 +188,49 @@ Semantic HTML elements clearly describe their meaning to both browsers and devel
   }, [cheatSheetId, moduleId, moduleName]);
 
   const handleBack = () => {
+    console.log("\n🔙 ========== NAVIGATION: Back Button Clicked (Cheat Sheet) ==========");
+    console.log("📝 Current Cheat Sheet ID:", cheatSheetId);
+    console.log("📝 Current Module ID:", moduleId);
+    console.log("📝 Current Module Name:", moduleName);
+
+    // Try to get navigation context from localStorage
+    try {
+      const storedRoadmapData = localStorage.getItem('currentRoadmapData');
+      if (storedRoadmapData) {
+        const roadmapData = JSON.parse(storedRoadmapData);
+        console.log("✅ Found roadmap navigation data in localStorage");
+        console.log("📊 Navigation data:", roadmapData);
+
+        // Navigate back to learning module with proper parameters
+        const { nodeId, roleId, roleName, domainId, nodeTitle } = roadmapData;
+        if (nodeId) {
+          console.log("🔄 Navigating back to learning module with stored parameters...");
+          router.push(`/learning-module?nodeId=${nodeId}&roleId=${roleId || ''}&roleName=${roleName || ''}&domainId=${domainId || ''}&nodeTitle=${encodeURIComponent(nodeTitle || '')}`);
+          console.log("✅ Navigation initiated with explicit route");
+          console.log("🔙 ========== NAVIGATION COMPLETE ==========\n");
+          return;
+        }
+      }
+    } catch (e) {
+      console.warn("⚠️ Could not parse roadmap navigation data:", e);
+    }
+
+    // Fallback: Use router.back()
+    console.log("🔄 Using router.back() as fallback...");
     router.back();
+    console.log("✅ Navigation initiated");
+    console.log("🔙 ========== NAVIGATION COMPLETE ==========\n");
   };
 
   const handleNext = () => {
-    // Navigate to the next learning activity
-    alert('Navigate to next activity - Quiz');
+    console.log("\n➡️ ========== NAVIGATION: Next Button Clicked (Cheat Sheet) ==========");
+    console.log("📝 Current Cheat Sheet ID:", cheatSheetId);
+    console.log("📝 Module ID:", moduleId);
+    console.log("📝 Module Name:", moduleName);
+    console.log("🔄 Navigating to quiz page...");
+    router.push(`/learning-module/quiz?quizId=${cheatSheetId}&moduleId=${moduleId}&moduleName=${moduleName}`);
+    console.log("✅ Navigation initiated");
+    console.log("➡️ ========== NAVIGATION COMPLETE ==========\n");
   };
 
   if (loading) {
@@ -255,7 +329,7 @@ Semantic HTML elements clearly describe their meaning to both browsers and devel
           </div>
           
           <div className="prose max-w-none">
-            <pre className="whitespace-pre-wrap text-sm leading-relaxed font-sans bg-gray-50 p-4 rounded-lg">
+            <pre className="whitespace-pre-wrap text-base leading-relaxed font-sans bg-gray-50 p-4 rounded-lg text-gray-900 font-medium">
               {cheatSheet.content}
             </pre>
           </div>

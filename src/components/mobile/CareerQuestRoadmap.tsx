@@ -56,67 +56,94 @@ export default function CareerQuestRoadmap({
   useEffect(() => {
     const loadRoadmap = async () => {
       try {
+        console.log("\n🎯 ========== CLIENT: Loading Career Quest Roadmap ==========");
+        console.log("📝 Role ID:", roleId);
+        console.log("📝 Role Name:", roleName);
+        console.log("📝 Domain ID:", domainId);
+        console.log("📊 Starting Level:", startingLevel);
+        console.log("📊 Has Assessment Data:", !!assessmentData);
+
+        console.log("🔄 Setting loading state to true...");
         setIsLoading(true);
         setError(null);
-        
-        console.log("Loading roadmap for:", { roleId, roleName, domainId, startingLevel });
-        
+
+        console.log("📤 Calling /api/career-quest/generate-roadmap...");
+
         // Call our API to generate career-specific roadmap
         const response = await fetch('/api/career-quest/generate-roadmap', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({ 
-            roleId, 
-            roleName, 
-            domainId, 
+          body: JSON.stringify({
+            roleId,
+            roleName,
+            domainId,
             startingLevel,
             assessmentData
           }),
         });
-        
-        console.log("Roadmap API response status:", response.status);
-        
+
+        console.log("📥 Roadmap API response status:", response.status);
+        console.log("📥 Response OK:", response.ok);
+
         if (!response.ok) {
-          throw new Error('Failed to load roadmap');
+          const errorText = await response.text();
+          console.error("❌ API request failed:", errorText);
+          throw new Error(`Failed to load roadmap: ${response.status}`);
         }
-        
+
         const data = await response.json();
-        console.log("Received roadmap data:", data);
-        
+        console.log("✅ Received roadmap data:");
+        console.log("📊 Units count:", data.units?.length || 0);
+
         // Store the roadmap data in localStorage for use by other components
         try {
+          console.log("💾 Storing roadmap in localStorage...");
           localStorage.setItem('careerQuest_roadmap', JSON.stringify(data));
+          console.log("✅ Stored roadmap in localStorage");
         } catch (err) {
-          console.warn('Could not store roadmap in localStorage:', err);
+          console.warn('⚠️ Could not store roadmap in localStorage:', err);
         }
-        
+
+        console.log("✅ Setting units state...");
         setUnits(data.units);
-        console.log("Set units:", data.units);
+        console.log("🎯 ========== CLIENT: Roadmap Loaded Successfully ==========\n");
       } catch (err: any) {
-        console.error('Error loading roadmap:', err);
+        console.error("\n❌ ========== CLIENT: Error Loading Roadmap ==========");
+        console.error('🚨 Error:', err);
+        console.error('📋 Error message:', err.message);
+
         setError('Failed to load your personalized learning roadmap. Using default roadmap.');
-        
+
         // Fallback to default roadmap
+        console.log("⚠️ Using fallback default roadmap...");
         const defaultRoadmap = getDefaultRoadmap(roleId, roleName, startingLevel);
-        console.log("Using default roadmap:", defaultRoadmap);
-        
+        console.log("📊 Default roadmap units:", defaultRoadmap.length);
+
         // Store the default roadmap data in localStorage for use by other components
         try {
+          console.log("💾 Storing default roadmap in localStorage...");
           localStorage.setItem('careerQuest_roadmap', JSON.stringify({ units: defaultRoadmap }));
+          console.log("✅ Stored default roadmap in localStorage");
         } catch (err) {
-          console.warn('Could not store default roadmap in localStorage:', err);
+          console.warn('⚠️ Could not store default roadmap in localStorage:', err);
         }
-        
+
+        console.log("✅ Setting units to default roadmap...");
         setUnits(defaultRoadmap);
+        console.error("🎯 ========== CLIENT: Error Handled with Fallback ==========\n");
       } finally {
+        console.log("🔄 Setting loading state to false...");
         setIsLoading(false);
       }
     };
-    
+
     if (roleId && roleName) {
+      console.log("✅ Role ID and Role Name present, loading roadmap...");
       loadRoadmap();
+    } else {
+      console.warn("⚠️ Missing roleId or roleName, not loading roadmap");
     }
   }, [roleId, roleName, domainId]);
 

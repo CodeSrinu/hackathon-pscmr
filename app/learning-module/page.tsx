@@ -53,71 +53,86 @@ function LearningModulePageContent() {
     console.log("Looking for nodeId:", nodeId);
     const loadLearningModule = async () => {
       try {
+        console.log("\n🎯 ========== CLIENT: Loading Learning Module ==========");
+        console.log("📝 Node ID:", nodeId);
+        console.log("📝 Role ID:", roleId);
+        console.log("📝 Role Name:", roleName);
+        console.log("📝 Domain ID:", domainId);
+        console.log("📝 Node Title (from URL):", nodeTitle);
+
+        console.log("🔄 Setting loading state to true...");
         setLoading(true);
         setError(null);
-        
-        console.log("Loading learning module for:", { nodeId, roleId, roleName, domainId });
-        
+
         // First, we need to get the node title from the roadmap
         // In a real implementation, this would be stored in context or passed as a parameter
         // For now, we'll try to get it from localStorage or use a fallback
         let courseTitle = nodeTitle || 'Course Title'; // Use nodeTitle from URL or default fallback
-        
+
         // Try to get the roadmap data from localStorage
         try {
+          console.log("💾 Attempting to retrieve roadmap from localStorage...");
           const storedRoadmap = localStorage.getItem('careerQuest_roadmap');
-          console.log("Stored roadmap data:", storedRoadmap);
+
           if (storedRoadmap) {
+            console.log("✅ Found stored roadmap");
             const roadmapData = JSON.parse(storedRoadmap);
-            console.log("Parsed roadmap data:", roadmapData);
+            console.log("📊 Roadmap units count:", roadmapData.units?.length || 0);
+
             // Search for the node with matching nodeId in all units
+            console.log("🔍 Searching for node with ID:", nodeId);
             for (const unit of roadmapData.units) {
               const node = unit.nodes.find((n: any) => n.id === nodeId);
-              console.log("Checking node:", node);
               if (node) {
                 courseTitle = node.title;
-                console.log("Found matching node, courseTitle:", courseTitle);
+                console.log("✅ Found matching node!");
+                console.log("📝 Course Title:", courseTitle);
                 break;
               }
             }
+          } else {
+            console.warn("⚠️ No stored roadmap found in localStorage");
           }
         } catch (err) {
-          console.warn('Could not retrieve roadmap from localStorage:', err);
+          console.warn('⚠️ Could not retrieve roadmap from localStorage:', err);
         }
-        
-        console.log("Using course title:", courseTitle);
-        
+
+        console.log("📝 Final course title:", courseTitle);
+        console.log("📤 Calling /api/course-roadmap...");
+
         // Call our API to generate the course roadmap (Phase 1 - AI Architect)
         const response = await fetch('/api/course-roadmap', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({ 
-            courseId: nodeId, 
+          body: JSON.stringify({
+            courseId: nodeId,
             courseTitle: courseTitle,
-            careerField: roleName 
+            careerField: roleName
           }),
         });
-        
-        console.log("Course Roadmap API response status:", response.status);
-        
+
+        console.log("📥 Course Roadmap API response status:", response.status);
+        console.log("📥 Response OK:", response.ok);
+
         if (!response.ok) {
-          throw new Error('Failed to load course roadmap');
+          const errorText = await response.text();
+          console.error("❌ API request failed:", errorText);
+          throw new Error(`Failed to load course roadmap: ${response.status}`);
         }
         
         const data = await response.json();
-        console.log("Received course roadmap data:", data);
-        console.log("Checking data structure:");
-        console.log("- data.roadmap:", data.roadmap);
-        console.log("- data.roadmap.syllabus:", data.roadmap?.syllabus);
-        console.log("- data.roadmap.learningUnits:", data.roadmap?.learningUnits);
-        
+        console.log("✅ Received course roadmap data:");
+        console.log("📊 Course Title:", data.roadmap?.courseTitle);
+        console.log("📊 Syllabus items count:", data.roadmap?.syllabus?.length || 0);
+
         // Transform the course roadmap data to our internal format
+        console.log("🔧 Transforming syllabus to internal format...");
         const transformedModules = data.roadmap.syllabus.map((unit: any, index: number) => {
           // Map the unit type to our internal module type
           let moduleType: 'lecture' | 'cheat-sheet' | 'quiz' | 'assignment' = 'assignment';
-          
+
           switch (unit.type) {
             case 'lecture':
               moduleType = 'lecture';
@@ -134,9 +149,9 @@ function LearningModulePageContent() {
             default:
               moduleType = 'assignment';
           }
-          
-          console.log(`Transforming syllabus item ${index}: ${unit.type} -> ${moduleType}`);
-          
+
+          console.log(`📦 Transforming item ${index + 1}: ${unit.type} -> ${moduleType} (${unit.title})`);
+
           return {
             id: unit.id || `unit_${index}`,
             type: moduleType,
@@ -146,9 +161,9 @@ function LearningModulePageContent() {
             status: index === 0 ? 'available' : 'locked' // Only first item is available initially
           };
         });
-        
-        console.log("Transformed modules:", transformedModules);
-        
+
+        console.log("✅ Successfully transformed", transformedModules.length, "modules");
+
         const transformedModule: LearningModule = {
           id: nodeId,
           title: data.roadmap.courseTitle,
@@ -158,16 +173,20 @@ function LearningModulePageContent() {
           progress: 0, // Start at 0% since this is a new course
           modules: transformedModules
         };
-        
-        console.log("Setting learning module state:", transformedModule);
+
+        console.log("✅ Setting learning module state...");
         setLearningModule(transformedModule);
-        console.log("Called setLearningModule");
+        console.log("🎯 ========== CLIENT: Learning Module Loaded Successfully ==========\n");
         setLoading(false);
       } catch (err: any) {
-        console.error('Error loading learning module:', err);
+        console.error("\n❌ ========== CLIENT: Error Loading Learning Module ==========");
+        console.error('🚨 Error:', err);
+        console.error('📋 Error message:', err.message);
+
         setError('Failed to load the learning module. Please try again.');
-        
+
         // Fallback to mock data
+        console.log("⚠️ Using fallback mock data...");
         const mockModule: LearningModule = {
           id: nodeId,
           title: 'HTML & CSS Deep Dive',
@@ -210,8 +229,11 @@ function LearningModulePageContent() {
             }
           ]
         };
-        
+
+        console.log("📊 Mock module has", mockModule.modules.length, "items");
+        console.log("✅ Setting mock learning module...");
         setLearningModule(mockModule);
+        console.error("🎯 ========== CLIENT: Error Handled with Fallback ==========\n");
         setLoading(false);
       }
     };
@@ -229,10 +251,40 @@ function LearningModulePageContent() {
   }, [nodeId, roleId, roleName, domainId]);
 
   const handleBack = () => {
-    router.back();
+    console.log("\n🔙 ========== NAVIGATION: Back Button Clicked (Learning Module) ==========");
+    console.log("📝 Current Node ID:", nodeId);
+    console.log("📝 Current Role ID:", roleId);
+
+    // Navigate back to career quest roadmap
+    console.log("🔄 Navigating back to career quest roadmap...");
+    router.push('/career-quest-roadmap');
+
+    console.log("✅ Navigation initiated");
+    console.log("🔙 ========== NAVIGATION COMPLETE ==========\n");
   };
 
   const handleStartModule = (moduleId: string, moduleType: string) => {
+    console.log("\n🚀 ========== NAVIGATION: Starting Module ==========");
+    console.log("📝 Module ID:", moduleId);
+    console.log("📝 Module Type:", moduleType);
+
+    // Save navigation context to localStorage for back button
+    try {
+      const navigationData = {
+        nodeId,
+        roleId,
+        roleName,
+        domainId,
+        nodeTitle,
+        timestamp: new Date().toISOString()
+      };
+      localStorage.setItem('currentRoadmapData', JSON.stringify(navigationData));
+      console.log("💾 Saved navigation data to localStorage");
+      console.log("📊 Navigation data:", navigationData);
+    } catch (e) {
+      console.warn("⚠️ Could not save navigation data:", e);
+    }
+
     // Navigate to the specific module type page with proper parameters
     // Map our internal types to the actual directory names
     const pathMap: Record<string, string> = {
@@ -242,13 +294,13 @@ function LearningModulePageContent() {
       'project': 'tasks-projects',
       'assignment': 'tasks-projects'
     };
-    
+
     const actualPath = pathMap[moduleType] || 'video-lecture';
     const basePath = `/learning-module/${actualPath}`;
-    
+
     // Find the module in our data to get its title and other details
     const module = learningModule?.modules.find(m => m.id === moduleId);
-    
+
     if (module) {
       const params = new URLSearchParams({
         moduleId: moduleId,
@@ -257,12 +309,16 @@ function LearningModulePageContent() {
         title: module.title,
         description: module.description || ''
       }).toString();
-      
+
+      console.log("🔄 Navigating to:", `${basePath}?${params}`);
       router.push(`${basePath}?${params}`);
     } else {
       // Fallback if we can't find the module
+      console.log("⚠️ Module not found, using fallback navigation");
       router.push(`${basePath}?moduleId=${moduleId}`);
     }
+
+    console.log("🚀 ========== NAVIGATION COMPLETE ==========\n");
   };
 
   if (loading) {

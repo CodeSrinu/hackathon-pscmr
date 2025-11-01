@@ -151,7 +151,38 @@ function AssignmentPageContent() {
   }, [timerActive]);
 
   const handleBack = () => {
+    console.log("\n🔙 ========== NAVIGATION: Back Button Clicked (Assignment) ==========");
+    console.log("📝 Current Assignment ID:", assignmentId);
+    console.log("📝 Current Module ID:", moduleId);
+    console.log("📝 Current Module Name:", moduleName);
+
+    // Try to get navigation context from localStorage
+    try {
+      const storedRoadmapData = localStorage.getItem('currentRoadmapData');
+      if (storedRoadmapData) {
+        const roadmapData = JSON.parse(storedRoadmapData);
+        console.log("✅ Found roadmap navigation data in localStorage");
+        console.log("📊 Navigation data:", roadmapData);
+
+        // Navigate back to learning module with proper parameters
+        const { nodeId, roleId, roleName, domainId, nodeTitle } = roadmapData;
+        if (nodeId) {
+          console.log("🔄 Navigating back to learning module with stored parameters...");
+          router.push(`/learning-module?nodeId=${nodeId}&roleId=${roleId || ''}&roleName=${roleName || ''}&domainId=${domainId || ''}&nodeTitle=${encodeURIComponent(nodeTitle || '')}`);
+          console.log("✅ Navigation initiated with explicit route");
+          console.log("🔙 ========== NAVIGATION COMPLETE ==========\n");
+          return;
+        }
+      }
+    } catch (e) {
+      console.warn("⚠️ Could not parse roadmap navigation data:", e);
+    }
+
+    // Fallback: Use router.back()
+    console.log("🔄 Using router.back() as fallback...");
     router.back();
+    console.log("✅ Navigation initiated");
+    console.log("🔙 ========== NAVIGATION COMPLETE ==========\n");
   };
 
   const handleStartTimer = () => {
