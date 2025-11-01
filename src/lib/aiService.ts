@@ -287,8 +287,8 @@ export async function generatePersonaAndRoles(quizAnswers: Record<string, any>):
         stack: error.stack,
         name: error.name
       });
-      // Return fallback data in case of error
-      return getFallbackRecommendations();
+      // Don't return fallback, re-throw the error so it's handled upstream
+      throw error;
     }
   } else {
     // Client-side - return fallback data
@@ -347,8 +347,8 @@ export async function generateRoleDeepDive(role: string, personaContext: string)
         stack: error.stack,
         name: error.name
       });
-      // Return fallback data in case of error
-      return getFallbackDeepDive(role);
+      // Don't return fallback, re-throw the error so it's handled upstream
+      throw error;
     }
   } else {
     // Client-side - return fallback data

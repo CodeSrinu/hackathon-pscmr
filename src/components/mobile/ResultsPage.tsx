@@ -4,6 +4,7 @@
 import { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import { saveQuizResponse } from '@/lib/userData';
+import ErrorScreen from '@/components/ErrorScreen';
 
 interface Persona {
   id: string;
@@ -99,12 +100,7 @@ export default function ResultsPage({ answers, onBack, onSelectRole }: ResultsPa
         const aiResponse = await response.json();
         console.log("Received AI response:", aiResponse);
         
-        // Check if we got fallback data (predefined roles)
-        const isFallbackData = aiResponse.personaName === "The Adaptive Explorer";
-        if (isFallbackData) {
-          console.log("WARNING: Returning fallback/predefined data instead of AI-generated content");
-        }
-        
+        // Directly use the AI response (no fallback check)
         // Transform AI response to our component state
         const transformedPersona: Persona = {
           id: 'ai-generated',
@@ -162,53 +158,12 @@ export default function ResultsPage({ answers, onBack, onSelectRole }: ResultsPa
         setRoles(transformedRoles);
       } catch (err) {
         console.error('Error fetching recommendations:', err);
-        setError('Failed to generate recommendations. Please try again.');
-        
-        // Fallback to sample data
-        const samplePersona: Persona = {
-          id: 'adaptive-explorer',
-          name: 'The Adaptive Explorer',
-          description: 'You\'re curious and flexible, with a natural ability to adapt to different environments. You thrive when you can explore various options before committing to a path.',
-          strengths: ['Adaptability', 'Curiosity', 'Problem Solving'],
-          matchScore: 85,
-          confidence: 'medium'
-        };
-        
-        const sampleRoles: RoleMatch[] = [
-          {
-            id: 'full-stack-developer',
-            name: 'Full Stack Developer',
-            reason: 'With your unique combination of skills and talents, you\'re positioned for success in a role that combines both technical and creative problem-solving.',
-            matchPercentage: 92
-          },
-          {
-            id: 'business-analyst',
-            name: 'Business Analyst',
-            reason: 'This career path aligns with your unique talents and offers opportunities to leverage your analytical thinking and understanding of human behavior.',
-            matchPercentage: 85
-          },
-          {
-            id: 'digital-marketing-specialist',
-            name: 'Digital Marketing Specialist',
-            reason: 'This field is ideal for individuals with your combination of curiosity and adaptability, offering dynamic opportunities to stay current with trends.',
-            matchPercentage: 78
-          },
-          {
-            id: 'project-coordinator',
-            name: 'Project Coordinator',
-            reason: 'With your unique combination of skills and talents, you are positioned for success in managing multiple tasks and helping teams stay organized.',
-            matchPercentage: 72
-          },
-          {
-            id: 'ux-researcher',
-            name: 'UX Researcher',
-            reason: 'The skills you possess are highly valuable in understanding user needs and improving product experiences.',
-            matchPercentage: 68
-          }
-        ];
-        
-        setPersona(samplePersona);
-        setRoles(sampleRoles);
+        console.error('Error details:', err instanceof Error ? {
+          name: err.name,
+          message: err.message,
+          stack: err.stack
+        } : err);
+        setError('Failed to generate AI-powered recommendations. This may be due to API connectivity issues or invalid API key configuration. Please contact the system administrator.');
       } finally {
         setLoading(false);
       }
@@ -320,23 +275,12 @@ export default function ResultsPage({ answers, onBack, onSelectRole }: ResultsPa
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white flex flex-col items-center justify-center p-4">
-        <div className="text-center max-w-md">
-          <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg className="w-8 h-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-            </svg>
-          </div>
-          <h2 className="text-2xl font-bold text-gray-800 mb-2">Error Loading Results</h2>
-          <p className="text-gray-600 mb-6">{error}</p>
-          <button
-            className="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-300 shadow-md hover:shadow-lg font-medium"
-            onClick={onBack}
-          >
-            Go Back
-          </button>
-        </div>
-      </div>
+      <ErrorScreen
+        title="AI Service Unavailable"
+        message={error}
+        onRetry={() => window.location.reload()}
+        showRetry={true}
+      />
     );
   }
 

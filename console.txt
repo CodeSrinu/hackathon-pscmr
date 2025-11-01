@@ -1,388 +1,2561 @@
-  GET https://career-advisor-00.vercel.app/api/auth/error 404 (Not Found)
-(anonymous) @ /_next/static/chunks…265354a43de5cd.js:1
-(anonymous) @ /_next/static/chunks…265354a43de5cd.js:1
-(anonymous) @ /_next/static/chunks…265354a43de5cd.js:1
-(anonymous) @ /_next/static/chunks…265354a43de5cd.js:1
-t @ /_next/static/chunks…265354a43de5cd.js:1
-i @ /_next/static/chunks…265354a43de5cd.js:1
-Promise.then
-t @ /_next/static/chunks…265354a43de5cd.js:1
-i @ /_next/static/chunks…265354a43de5cd.js:1
-(anonymous) @ /_next/static/chunks…265354a43de5cd.js:1
-(anonymous) @ /_next/static/chunks…265354a43de5cd.js:1
-N @ /_next/static/chunks…265354a43de5cd.js:1
-push.998.t.signIn @ /_next/static/chunks…265354a43de5cd.js:1
-onClick @ /_next/static/chunks…12dcebd92b2991.js:1
-a_ @ /_next/static/chunks…698e2e9c7f3a30.js:1
-aR @ /_next/static/chunks…698e2e9c7f3a30.js:1
-(anonymous) @ /_next/static/chunks…698e2e9c7f3a30.js:1
-sF @ /_next/static/chunks…698e2e9c7f3a30.js:1
-sM @ /_next/static/chunks…698e2e9c7f3a30.js:1
-(anonymous) @ /_next/static/chunks…698e2e9c7f3a30.js:1
-o4 @ /_next/static/chunks…698e2e9c7f3a30.js:1
-iV @ /_next/static/chunks…698e2e9c7f3a30.js:1
-sU @ /_next/static/chunks…698e2e9c7f3a30.js:1
-uR @ /_next/static/chunks…698e2e9c7f3a30.js:1
-uM @ /_next/static/chunks…698e2e9c7f3a30.js:1
-849-d3265354a43de5cd.js:1  GET https://career-advisor-00.vercel.app/api/auth/session 404 (Not Found)
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-c @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-T @ 849-d3265354a43de5cd.js:1
-R @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-aW @ fd9d1056-99698e2e9c7f3a30.js:1
-oe @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-id @ fd9d1056-99698e2e9c7f3a30.js:1
-o @ fd9d1056-99698e2e9c7f3a30.js:1
-T @ 23-084dc0ddac7a3dc9.js:1
 index.iife.js:40 content ui loaded
-23-084dc0ddac7a3dc9.js:1  GET https://career-advisor-00.vercel.app/profile?_rsc=pvd74 404 (Not Found)
-s @ 23-084dc0ddac7a3dc9.js:1
-(anonymous) @ 23-084dc0ddac7a3dc9.js:1
-u @ 23-084dc0ddac7a3dc9.js:1
-s @ 23-084dc0ddac7a3dc9.js:1
-enqueue @ 23-084dc0ddac7a3dc9.js:1
-s @ 23-084dc0ddac7a3dc9.js:1
-i @ 23-084dc0ddac7a3dc9.js:1
-a @ 23-084dc0ddac7a3dc9.js:1
-(anonymous) @ 23-084dc0ddac7a3dc9.js:1
-action @ 23-084dc0ddac7a3dc9.js:2
-c @ 23-084dc0ddac7a3dc9.js:2
-i @ 23-084dc0ddac7a3dc9.js:2
-c @ 23-084dc0ddac7a3dc9.js:2
+react-dom.development.js:38560 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+index.esm.js:85 [2025-11-01T06:12:07.218Z]  @firebase/analytics: Analytics: Firebase Analytics is not supported in this environment. Wrap initialization of analytics in analytics.isSupported() to prevent initialization in unsupported environments. Details: (1) This is a browser extension environment. (analytics/invalid-analytics-context).
+defaultLogHandler @ index.esm.js:85
+app-index.js:33 Warning: Extra attributes from the server: crxlauncher
+    at html
+    at RootLayout (Server)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:577:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:117:11)
+window.console.error @ app-index.js:33
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 139ms
+VM290 ResultsPage.tsx:56 Fetching recommendations with answers: {0: 'Disassembling the old radio/TV remote', 1: 'DIY science kit from local fair', 2: 'ok', 3: 'Latest smartphone + Jio recharge', 4: '"I convinced the shopkeeper to give a festival discount."', 5: 'Bustling co-working space in Bangalore', 6: Array(1), 7: '4', 8: 'nothing', 9: '2'}
+VM290 ResultsPage.tsx:61 Converted backend answers: {childhoodInterests: 'DIY science kit from local fair', favoriteToy: 'ok', childhoodAspiration: 'Latest smartphone + Jio recharge', spendingPreference: '"I convinced the shopkeeper to give a festival discount."', inspirationalStatement: 'Bustling co-working space in Bangalore', …}
+VM290 ResultsPage.tsx:67 Calling /api/ai-recommendations...
+VM290 ResultsPage.tsx:56 Fetching recommendations with answers: {0: 'Disassembling the old radio/TV remote', 1: 'DIY science kit from local fair', 2: 'ok', 3: 'Latest smartphone + Jio recharge', 4: '"I convinced the shopkeeper to give a festival discount."', 5: 'Bustling co-working space in Bangalore', 6: Array(1), 7: '4', 8: 'nothing', 9: '2'}
+VM290 ResultsPage.tsx:61 Converted backend answers: {childhoodInterests: 'DIY science kit from local fair', favoriteToy: 'ok', childhoodAspiration: 'Latest smartphone + Jio recharge', spendingPreference: '"I convinced the shopkeeper to give a festival discount."', inspirationalStatement: 'Bustling co-working space in Bangalore', …}
+VM290 ResultsPage.tsx:67 Calling /api/ai-recommendations...
+VM290 ResultsPage.tsx:68  POST http://localhost:3000/api/ai-recommendations 404 (Not Found)
+fetchRecommendations @ VM290 ResultsPage.tsx:68
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+VM290 ResultsPage.tsx:77 API response status: 404
+VM290 ResultsPage.tsx:133 Error fetching recommendations: Error: API request failed with status 404
+    at fetchRecommendations (VM290 ResultsPage.tsx:79:27)
+window.console.error @ app-index.js:33
+console.error @ hydration-error-info.js:63
+fetchRecommendations @ VM290 ResultsPage.tsx:133
+await in fetchRecommendations
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+VM290 ResultsPage.tsx:68  POST http://localhost:3000/api/ai-recommendations 404 (Not Found)
+fetchRecommendations @ VM290 ResultsPage.tsx:68
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+invokePassiveEffectMountInDEV @ react-dom.development.js:23980
+invokeEffectsInDev @ react-dom.development.js:26852
+legacyCommitDoubleInvokeEffectsInDEV @ react-dom.development.js:26835
+commitDoubleInvokeEffectsInDEV @ react-dom.development.js:26816
+flushPassiveEffectsImpl @ react-dom.development.js:26514
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+VM290 ResultsPage.tsx:77 API response status: 404
+VM290 ResultsPage.tsx:133 Error fetching recommendations: Error: API request failed with status 404
+    at fetchRecommendations (VM290 ResultsPage.tsx:79:27)
+window.console.error @ app-index.js:33
+console.error @ hydration-error-info.js:63
+fetchRecommendations @ VM290 ResultsPage.tsx:133
+await in fetchRecommendations
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+invokePassiveEffectMountInDEV @ react-dom.development.js:23980
+invokeEffectsInDev @ react-dom.development.js:26852
+legacyCommitDoubleInvokeEffectsInDEV @ react-dom.development.js:26835
+commitDoubleInvokeEffectsInDEV @ react-dom.development.js:26816
+flushPassiveEffectsImpl @ react-dom.development.js:26514
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+userData.ts:117 Error saving quiz response: FirebaseError: Missing or insufficient permissions.
+window.console.error @ app-index.js:33
+console.error @ hydration-error-info.js:63
+saveQuizResponse @ userData.ts:117
+await in saveQuizResponse
+fetchRecommendations @ VM290 ResultsPage.tsx:64
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+userData.ts:114  POST https://firestore.googleapis.com/google.firestore.v1.Firestore/Write/channel?VER=8&database=projects%2Fcareer-advisor-00%2Fdatabases%2F(default)&gsessionid=7NlateeN799ybppNoN-8LiliKjex0Gz9ns_-koYef48&SID=j0O4IBts7WkG4NZ_d2pNRw&RID=41520&TYPE=terminate&zx=kp1quu5jmt5w 400 (Bad Request)
+gc @ webchannel_blob_es2018.js:96
+Y.close @ webchannel_blob_es2018.js:109
+eval @ index.esm.js:14684
+eval @ index.esm.js:14635
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Z.ta @ webchannel_blob_es2018.js:111
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
 Promise.then
-c @ 23-084dc0ddac7a3dc9.js:2
-i @ 23-084dc0ddac7a3dc9.js:2
-c @ 23-084dc0ddac7a3dc9.js:2
+Nc @ webchannel_blob_es2018.js:82
+h.Pa @ webchannel_blob_es2018.js:82
 Promise.then
-c @ 23-084dc0ddac7a3dc9.js:2
-(anonymous) @ 23-084dc0ddac7a3dc9.js:2
-dispatch @ 23-084dc0ddac7a3dc9.js:2
-(anonymous) @ 23-084dc0ddac7a3dc9.js:1
-(anonymous) @ 23-084dc0ddac7a3dc9.js:1
-(anonymous) @ 23-084dc0ddac7a3dc9.js:2
-prefetch @ 23-084dc0ddac7a3dc9.js:1
-b @ 138-a3d3d6b9d021079a.js:1
-(anonymous) @ 138-a3d3d6b9d021079a.js:1
-aW @ fd9d1056-99698e2e9c7f3a30.js:1
-oe @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-id @ fd9d1056-99698e2e9c7f3a30.js:1
-o @ fd9d1056-99698e2e9c7f3a30.js:1
-T @ 23-084dc0ddac7a3dc9.js:1
-23-084dc0ddac7a3dc9.js:1 [next-auth][error][CLIENT_FETCH_ERROR] 
-https://next-auth.js.org/errors#client_fetch_error Unexpected token '<', "<!DOCTYPE "... is not valid JSON {error: {…}, url: '/api/auth/session', message: `Unexpected token '<', "<!DOCTYPE "... is not valid JSON`}
-(anonymous) @ 23-084dc0ddac7a3dc9.js:1
-error @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-s @ 849-d3265354a43de5cd.js:1
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
 Promise.then
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:57
+fd @ webchannel_blob_es2018.js:103
+h.Fa @ webchannel_blob_es2018.js:102
+Da @ webchannel_blob_es2018.js:41
 Promise.then
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-c @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-T @ 849-d3265354a43de5cd.js:1
-R @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-aW @ fd9d1056-99698e2e9c7f3a30.js:1
-oe @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-id @ fd9d1056-99698e2e9c7f3a30.js:1
-o @ fd9d1056-99698e2e9c7f3a30.js:1
-T @ 23-084dc0ddac7a3dc9.js:1
-849-d3265354a43de5cd.js:1  POST https://career-advisor-00.vercel.app/api/auth/_log 405 (Method Not Allowed)
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-s @ 849-d3265354a43de5cd.js:1
+x @ webchannel_blob_es2018.js:41
+ec @ webchannel_blob_es2018.js:101
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
 Promise.then
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
 Promise.then
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-c @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-T @ 849-d3265354a43de5cd.js:1
-R @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-t @ 849-d3265354a43de5cd.js:1
-i @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-(anonymous) @ 849-d3265354a43de5cd.js:1
-aW @ fd9d1056-99698e2e9c7f3a30.js:1
-oe @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-or @ fd9d1056-99698e2e9c7f3a30.js:1
-ol @ fd9d1056-99698e2e9c7f3a30.js:1
-id @ fd9d1056-99698e2e9c7f3a30.js:1
-o @ fd9d1056-99698e2e9c7f3a30.js:1
-T @ 23-084dc0ddac7a3dc9.js:1
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:56
+Hb @ webchannel_blob_es2018.js:55
+h.Ga @ webchannel_blob_es2018.js:99
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+fc @ webchannel_blob_es2018.js:97
+h.connect @ webchannel_blob_es2018.js:95
+Y.m @ webchannel_blob_es2018.js:109
+Yo @ index.esm.js:14626
+send @ index.esm.js:14480
+q_ @ index.esm.js:15004
+ra @ index.esm.js:15252
+__PRIVATE_onWriteStreamOpen @ index.esm.js:15724
+eval @ index.esm.js:15087
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15086
+__ @ index.esm.js:14486
+eval @ index.esm.js:14694
+setTimeout
+T_ @ index.esm.js:14689
+j_ @ index.esm.js:15226
+G_ @ index.esm.js:15083
+eval @ index.esm.js:15073
+Promise.then
+auth @ index.esm.js:15064
+start @ index.esm.js:14969
+start @ index.esm.js:15220
+__PRIVATE_startWriteStream @ index.esm.js:15720
+__PRIVATE_fillWritePipeline @ index.esm.js:15696
+await in __PRIVATE_fillWritePipeline
+__PRIVATE_syncEngineWrite @ index.esm.js:17051
+await in __PRIVATE_syncEngineWrite
+eval @ index.esm.js:22385
+await in eval
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+__PRIVATE_firestoreClientWrite @ index.esm.js:22385
+executeWrite @ index.esm.js:22387
+setDoc @ index.esm.js:22125
+saveQuizResponse @ userData.ts:114
+fetchRecommendations @ VM290 ResultsPage.tsx:64
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+userData.ts:117 Error saving quiz response: FirebaseError: Missing or insufficient permissions.
+window.console.error @ app-index.js:33
+console.error @ hydration-error-info.js:63
+saveQuizResponse @ userData.ts:117
+await in saveQuizResponse
+fetchRecommendations @ VM290 ResultsPage.tsx:64
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+invokePassiveEffectMountInDEV @ react-dom.development.js:23980
+invokeEffectsInDev @ react-dom.development.js:26852
+legacyCommitDoubleInvokeEffectsInDEV @ react-dom.development.js:26835
+commitDoubleInvokeEffectsInDEV @ react-dom.development.js:26816
+flushPassiveEffectsImpl @ react-dom.development.js:26514
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+userData.ts:114  POST https://firestore.googleapis.com/google.firestore.v1.Firestore/Write/channel?VER=8&database=projects%2Fcareer-advisor-00%2Fdatabases%2F(default)&gsessionid=sdbixnEcWbnxcZ3oWiXrrrHEWwhSLWHFH-FW8vMz92E&SID=EEQ3RFAJ3QYuLZ2DwU4E7A&RID=60478&TYPE=terminate&zx=n1gpddr4ofc 400 (Bad Request)
+gc @ webchannel_blob_es2018.js:96
+Y.close @ webchannel_blob_es2018.js:109
+eval @ index.esm.js:14684
+eval @ index.esm.js:14635
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Z.ta @ webchannel_blob_es2018.js:111
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:57
+fd @ webchannel_blob_es2018.js:103
+h.Fa @ webchannel_blob_es2018.js:102
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+fc @ webchannel_blob_es2018.js:97
+Y.o @ webchannel_blob_es2018.js:110
+Yo @ index.esm.js:14627
+send @ index.esm.js:14480
+q_ @ index.esm.js:15004
+ea @ index.esm.js:15259
+__PRIVATE_onWriteHandshakeComplete @ index.esm.js:15730
+J_ @ index.esm.js:15232
+eval @ index.esm.js:15091
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15091
+u_ @ index.esm.js:14492
+eval @ index.esm.js:14685
+eval @ index.esm.js:14635
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Z.ta @ webchannel_blob_es2018.js:111
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:57
+fd @ webchannel_blob_es2018.js:103
+h.ab @ webchannel_blob_es2018.js:102
+eval @ webchannel_blob_es2018.js:53
+setTimeout
+ub @ webchannel_blob_es2018.js:53
+h.Fa @ webchannel_blob_es2018.js:102
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+ec @ webchannel_blob_es2018.js:101
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:56
+Hb @ webchannel_blob_es2018.js:55
+h.Ga @ webchannel_blob_es2018.js:99
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+fc @ webchannel_blob_es2018.js:97
+h.connect @ webchannel_blob_es2018.js:95
+Y.m @ webchannel_blob_es2018.js:109
+Yo @ index.esm.js:14626
+send @ index.esm.js:14480
+q_ @ index.esm.js:15004
+ra @ index.esm.js:15252
+__PRIVATE_onWriteStreamOpen @ index.esm.js:15724
+eval @ index.esm.js:15087
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15086
+__ @ index.esm.js:14486
+eval @ index.esm.js:14694
+setTimeout
+T_ @ index.esm.js:14689
+j_ @ index.esm.js:15226
+G_ @ index.esm.js:15083
+eval @ index.esm.js:15073
+Promise.then
+auth @ index.esm.js:15064
+start @ index.esm.js:14969
+start @ index.esm.js:15220
+__PRIVATE_startWriteStream @ index.esm.js:15720
+__PRIVATE_fillWritePipeline @ index.esm.js:15696
+await in __PRIVATE_fillWritePipeline
+__PRIVATE_handleWriteError @ index.esm.js:15761
+await in __PRIVATE_handleWriteError
+__PRIVATE_onWriteStreamClose @ index.esm.js:15763
+close @ index.esm.js:15054
+z_ @ index.esm.js:15105
+eval @ index.esm.js:15089
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15089
+a_ @ index.esm.js:14489
+eval @ index.esm.js:14684
+eval @ index.esm.js:14635
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Z.ta @ webchannel_blob_es2018.js:111
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:57
+fd @ webchannel_blob_es2018.js:103
+h.Fa @ webchannel_blob_es2018.js:102
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+ec @ webchannel_blob_es2018.js:101
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:56
+Hb @ webchannel_blob_es2018.js:55
+h.Ga @ webchannel_blob_es2018.js:99
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+fc @ webchannel_blob_es2018.js:97
+h.connect @ webchannel_blob_es2018.js:95
+Y.m @ webchannel_blob_es2018.js:109
+Yo @ index.esm.js:14626
+send @ index.esm.js:14480
+q_ @ index.esm.js:15004
+ra @ index.esm.js:15252
+__PRIVATE_onWriteStreamOpen @ index.esm.js:15724
+eval @ index.esm.js:15087
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15086
+__ @ index.esm.js:14486
+eval @ index.esm.js:14694
+setTimeout
+T_ @ index.esm.js:14689
+j_ @ index.esm.js:15226
+G_ @ index.esm.js:15083
+eval @ index.esm.js:15073
+Promise.then
+auth @ index.esm.js:15064
+start @ index.esm.js:14969
+start @ index.esm.js:15220
+__PRIVATE_startWriteStream @ index.esm.js:15720
+__PRIVATE_fillWritePipeline @ index.esm.js:15696
+await in __PRIVATE_fillWritePipeline
+__PRIVATE_syncEngineWrite @ index.esm.js:17051
+await in __PRIVATE_syncEngineWrite
+eval @ index.esm.js:22385
+await in eval
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+__PRIVATE_firestoreClientWrite @ index.esm.js:22385
+executeWrite @ index.esm.js:22387
+setDoc @ index.esm.js:22125
+saveQuizResponse @ userData.ts:114
+fetchRecommendations @ VM290 ResultsPage.tsx:64
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 1367ms
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 3377ms
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 474ms
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+VM290 ResultsPage.tsx:56 Fetching recommendations with answers: {0: 'Drawing rangoli or mehendi designs', 1: 'None of these', 2: 'ok', 3: 'Latest smartphone + Jio recharge', 4: '"I convinced the shopkeeper to give a festival discount."', 5: 'Bustling co-working space in Bangalore', 6: Array(1), 7: '3', 8: 'ok', 9: '2'}
+VM290 ResultsPage.tsx:61 Converted backend answers: {childhoodInterests: 'None of these', favoriteToy: 'ok', childhoodAspiration: 'Latest smartphone + Jio recharge', spendingPreference: '"I convinced the shopkeeper to give a festival discount."', inspirationalStatement: 'Bustling co-working space in Bangalore', …}
+VM290 ResultsPage.tsx:67 Calling /api/ai-recommendations...
+VM290 ResultsPage.tsx:56 Fetching recommendations with answers: {0: 'Drawing rangoli or mehendi designs', 1: 'None of these', 2: 'ok', 3: 'Latest smartphone + Jio recharge', 4: '"I convinced the shopkeeper to give a festival discount."', 5: 'Bustling co-working space in Bangalore', 6: Array(1), 7: '3', 8: 'ok', 9: '2'}
+VM290 ResultsPage.tsx:61 Converted backend answers: {childhoodInterests: 'None of these', favoriteToy: 'ok', childhoodAspiration: 'Latest smartphone + Jio recharge', spendingPreference: '"I convinced the shopkeeper to give a festival discount."', inspirationalStatement: 'Bustling co-working space in Bangalore', …}
+VM290 ResultsPage.tsx:67 Calling /api/ai-recommendations...
+userData.ts:117 Error saving quiz response: FirebaseError: Missing or insufficient permissions.
+window.console.error @ app-index.js:33
+console.error @ hydration-error-info.js:63
+saveQuizResponse @ userData.ts:117
+await in saveQuizResponse
+fetchRecommendations @ VM290 ResultsPage.tsx:64
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+userData.ts:114  POST https://firestore.googleapis.com/google.firestore.v1.Firestore/Write/channel?VER=8&database=projects%2Fcareer-advisor-00%2Fdatabases%2F(default)&gsessionid=YtFZLc-qeQN5UoOGSY7Bpa-5JNpsu45ZLj-H66cIFCc&SID=DIY3C3l5Oqs7CitvIZTLpw&RID=81150&TYPE=terminate&zx=rjvedjr05o4y 400 (Bad Request)
+gc @ webchannel_blob_es2018.js:96
+Y.close @ webchannel_blob_es2018.js:109
+eval @ index.esm.js:14684
+eval @ index.esm.js:14635
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Z.ta @ webchannel_blob_es2018.js:111
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:57
+fd @ webchannel_blob_es2018.js:103
+h.Fa @ webchannel_blob_es2018.js:102
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+ec @ webchannel_blob_es2018.js:101
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:56
+Hb @ webchannel_blob_es2018.js:55
+h.Ga @ webchannel_blob_es2018.js:99
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+fc @ webchannel_blob_es2018.js:97
+h.connect @ webchannel_blob_es2018.js:95
+Y.m @ webchannel_blob_es2018.js:109
+Yo @ index.esm.js:14626
+send @ index.esm.js:14480
+q_ @ index.esm.js:15004
+ra @ index.esm.js:15252
+__PRIVATE_onWriteStreamOpen @ index.esm.js:15724
+eval @ index.esm.js:15087
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15086
+__ @ index.esm.js:14486
+eval @ index.esm.js:14694
+setTimeout
+T_ @ index.esm.js:14689
+j_ @ index.esm.js:15226
+G_ @ index.esm.js:15083
+eval @ index.esm.js:15073
+Promise.then
+auth @ index.esm.js:15064
+start @ index.esm.js:14969
+start @ index.esm.js:15220
+__PRIVATE_startWriteStream @ index.esm.js:15720
+__PRIVATE_fillWritePipeline @ index.esm.js:15696
+await in __PRIVATE_fillWritePipeline
+__PRIVATE_syncEngineWrite @ index.esm.js:17051
+await in __PRIVATE_syncEngineWrite
+eval @ index.esm.js:22385
+await in eval
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+__PRIVATE_firestoreClientWrite @ index.esm.js:22385
+executeWrite @ index.esm.js:22387
+setDoc @ index.esm.js:22125
+saveQuizResponse @ userData.ts:114
+fetchRecommendations @ VM290 ResultsPage.tsx:64
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+userData.ts:117 Error saving quiz response: FirebaseError: Missing or insufficient permissions.
+window.console.error @ app-index.js:33
+console.error @ hydration-error-info.js:63
+saveQuizResponse @ userData.ts:117
+await in saveQuizResponse
+fetchRecommendations @ VM290 ResultsPage.tsx:64
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+invokePassiveEffectMountInDEV @ react-dom.development.js:23980
+invokeEffectsInDev @ react-dom.development.js:26852
+legacyCommitDoubleInvokeEffectsInDEV @ react-dom.development.js:26835
+commitDoubleInvokeEffectsInDEV @ react-dom.development.js:26816
+flushPassiveEffectsImpl @ react-dom.development.js:26514
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+userData.ts:114  POST https://firestore.googleapis.com/google.firestore.v1.Firestore/Write/channel?VER=8&database=projects%2Fcareer-advisor-00%2Fdatabases%2F(default)&gsessionid=LbihObBSZB05SWLfJT7XNg715OMBWeX1yGOwfs6OhDg&SID=XDeMZPkZsdQI77tHC9oOVQ&RID=16124&TYPE=terminate&zx=qkdir0h44u1k 400 (Bad Request)
+gc @ webchannel_blob_es2018.js:96
+Y.close @ webchannel_blob_es2018.js:109
+eval @ index.esm.js:14684
+eval @ index.esm.js:14635
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Z.ta @ webchannel_blob_es2018.js:111
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:57
+fd @ webchannel_blob_es2018.js:103
+h.Fa @ webchannel_blob_es2018.js:102
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+ec @ webchannel_blob_es2018.js:101
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:56
+Hb @ webchannel_blob_es2018.js:55
+h.Ga @ webchannel_blob_es2018.js:99
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+fc @ webchannel_blob_es2018.js:97
+h.connect @ webchannel_blob_es2018.js:95
+Y.m @ webchannel_blob_es2018.js:109
+Yo @ index.esm.js:14626
+send @ index.esm.js:14480
+q_ @ index.esm.js:15004
+ra @ index.esm.js:15252
+__PRIVATE_onWriteStreamOpen @ index.esm.js:15724
+eval @ index.esm.js:15087
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15086
+__ @ index.esm.js:14486
+eval @ index.esm.js:14694
+setTimeout
+T_ @ index.esm.js:14689
+j_ @ index.esm.js:15226
+G_ @ index.esm.js:15083
+eval @ index.esm.js:15073
+Promise.then
+auth @ index.esm.js:15064
+start @ index.esm.js:14969
+start @ index.esm.js:15220
+__PRIVATE_startWriteStream @ index.esm.js:15720
+__PRIVATE_fillWritePipeline @ index.esm.js:15696
+await in __PRIVATE_fillWritePipeline
+__PRIVATE_handleWriteError @ index.esm.js:15761
+await in __PRIVATE_handleWriteError
+__PRIVATE_onWriteStreamClose @ index.esm.js:15763
+close @ index.esm.js:15054
+z_ @ index.esm.js:15105
+eval @ index.esm.js:15089
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15089
+a_ @ index.esm.js:14489
+eval @ index.esm.js:14684
+eval @ index.esm.js:14635
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Z.ta @ webchannel_blob_es2018.js:111
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:57
+fd @ webchannel_blob_es2018.js:103
+h.Fa @ webchannel_blob_es2018.js:102
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+ec @ webchannel_blob_es2018.js:101
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:56
+Hb @ webchannel_blob_es2018.js:55
+h.Ga @ webchannel_blob_es2018.js:99
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+fc @ webchannel_blob_es2018.js:97
+h.connect @ webchannel_blob_es2018.js:95
+Y.m @ webchannel_blob_es2018.js:109
+Yo @ index.esm.js:14626
+send @ index.esm.js:14480
+q_ @ index.esm.js:15004
+ra @ index.esm.js:15252
+__PRIVATE_onWriteStreamOpen @ index.esm.js:15724
+eval @ index.esm.js:15087
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15086
+__ @ index.esm.js:14486
+eval @ index.esm.js:14694
+setTimeout
+T_ @ index.esm.js:14689
+j_ @ index.esm.js:15226
+G_ @ index.esm.js:15083
+eval @ index.esm.js:15073
+Promise.then
+auth @ index.esm.js:15064
+start @ index.esm.js:14969
+start @ index.esm.js:15220
+__PRIVATE_startWriteStream @ index.esm.js:15720
+__PRIVATE_fillWritePipeline @ index.esm.js:15696
+await in __PRIVATE_fillWritePipeline
+__PRIVATE_syncEngineWrite @ index.esm.js:17051
+await in __PRIVATE_syncEngineWrite
+eval @ index.esm.js:22385
+await in eval
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+__PRIVATE_firestoreClientWrite @ index.esm.js:22385
+executeWrite @ index.esm.js:22387
+setDoc @ index.esm.js:22125
+saveQuizResponse @ userData.ts:114
+fetchRecommendations @ VM290 ResultsPage.tsx:64
+ResultsPage._session_user @ VM290 ResultsPage.tsx:186
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+VM290 ResultsPage.tsx:77 API response status: 200
+VM290 ResultsPage.tsx:82 Received AI response: {personaName: 'The Adaptive Explorer', personaSummary: "You're curious and flexible, with a natural abilit…lore various options before committing to a path.", recommendedRoles: Array(5)}
+VM290 ResultsPage.tsx:86 WARNING: Returning fallback/predefined data instead of AI-generated content
+VM290 ResultsPage.tsx:128 Transformed persona: {id: 'ai-generated', name: 'The Adaptive Explorer', description: "You're curious and flexible, with a natural abilit…lore various options before committing to a path.", strengths: Array(3), matchScore: 100, …}
+VM290 ResultsPage.tsx:129 Transformed roles: (5) [{…}, {…}, {…}, {…}, {…}]
+VM290 ResultsPage.tsx:77 API response status: 200
+VM290 ResultsPage.tsx:82 Received AI response: {personaName: 'The Adaptive Explorer', personaSummary: "You're curious and flexible, with a natural abilit…lore various options before committing to a path.", recommendedRoles: Array(5)}
+VM290 ResultsPage.tsx:86 WARNING: Returning fallback/predefined data instead of AI-generated content
+VM290 ResultsPage.tsx:128 Transformed persona: {id: 'ai-generated', name: 'The Adaptive Explorer', description: "You're curious and flexible, with a natural abilit…lore various options before committing to a path.", strengths: Array(3), matchScore: 100, …}
+VM290 ResultsPage.tsx:129 Transformed roles: (5) [{…}, {…}, {…}, {…}, {…}]
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 637ms
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 134ms
+hot-reloader-client.js:44 [Fast Refresh] done in 514ms
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 939ms
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 98ms
+hot-reloader-client.js:44 [Fast Refresh] done in 375ms
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 1262ms
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 813ms
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 215ms
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+(index):1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 833ms
+hot-reloader-client.js:187 [Fast Refresh] rebuilding
+hot-reloader-client.js:44 [Fast Refresh] done in 1389ms
+ResultsPage.tsx:70 Fetching recommendations with answers: {0: 'Drawing rangoli or mehendi designs', 1: 'DIY science kit from local fair', 2: 'nothing\n', 3: "Helping fund a cousin's school fees", 4: '"My team won the inter-college hackathon."', 5: 'Work-from-home in pyjamas', 6: Array(1), 7: '2', 8: 'nothing', 9: '3'}
+ResultsPage.tsx:76 Converted backend answers: {childhoodInterests: 'DIY science kit from local fair', favoriteToy: 'nothing\n', childhoodAspiration: "Helping fund a cousin's school fees", spendingPreference: '"My team won the inter-college hackathon."', inspirationalStatement: 'Work-from-home in pyjamas', …}
+ResultsPage.tsx:85 Calling /api/ai-recommendations...
+ResultsPage.tsx:70 Fetching recommendations with answers: {0: 'Drawing rangoli or mehendi designs', 1: 'DIY science kit from local fair', 2: 'nothing\n', 3: "Helping fund a cousin's school fees", 4: '"My team won the inter-college hackathon."', 5: 'Work-from-home in pyjamas', 6: Array(1), 7: '2', 8: 'nothing', 9: '3'}
+ResultsPage.tsx:76 Converted backend answers: {childhoodInterests: 'DIY science kit from local fair', favoriteToy: 'nothing\n', childhoodAspiration: "Helping fund a cousin's school fees", spendingPreference: '"My team won the inter-college hackathon."', inspirationalStatement: 'Work-from-home in pyjamas', …}
+ResultsPage.tsx:85 Calling /api/ai-recommendations...
+userData.ts:117 Error saving quiz response: FirebaseError: Missing or insufficient permissions.
+window.console.error @ app-index.js:33
+console.error @ hydration-error-info.js:63
+saveQuizResponse @ userData.ts:117
+await in saveQuizResponse
+fetchRecommendations @ ResultsPage.tsx:80
+ResultsPage._session_user @ ResultsPage.tsx:172
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+userData.ts:114  POST https://firestore.googleapis.com/google.firestore.v1.Firestore/Write/channel?VER=8&database=projects%2Fcareer-advisor-00%2Fdatabases%2F(default)&gsessionid=hspkGL2s4CdV3eRnmdd9inr8HBMqWLb8ib9K-NSUQv4&SID=bPEYAqdkaD_Y3bihmUmPBA&RID=98973&TYPE=terminate&zx=xztz3wl38vsl 400 (Bad Request)
+gc @ webchannel_blob_es2018.js:96
+Y.close @ webchannel_blob_es2018.js:109
+eval @ index.esm.js:14684
+eval @ index.esm.js:14635
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Z.ta @ webchannel_blob_es2018.js:111
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:57
+fd @ webchannel_blob_es2018.js:103
+h.Fa @ webchannel_blob_es2018.js:102
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+ec @ webchannel_blob_es2018.js:101
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:56
+Hb @ webchannel_blob_es2018.js:55
+h.Ga @ webchannel_blob_es2018.js:99
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+fc @ webchannel_blob_es2018.js:97
+h.connect @ webchannel_blob_es2018.js:95
+Y.m @ webchannel_blob_es2018.js:109
+Yo @ index.esm.js:14626
+send @ index.esm.js:14480
+q_ @ index.esm.js:15004
+ra @ index.esm.js:15252
+__PRIVATE_onWriteStreamOpen @ index.esm.js:15724
+eval @ index.esm.js:15087
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15086
+__ @ index.esm.js:14486
+eval @ index.esm.js:14694
+setTimeout
+T_ @ index.esm.js:14689
+j_ @ index.esm.js:15226
+G_ @ index.esm.js:15083
+eval @ index.esm.js:15073
+Promise.then
+auth @ index.esm.js:15064
+start @ index.esm.js:14969
+start @ index.esm.js:15220
+__PRIVATE_startWriteStream @ index.esm.js:15720
+__PRIVATE_fillWritePipeline @ index.esm.js:15696
+await in __PRIVATE_fillWritePipeline
+__PRIVATE_syncEngineWrite @ index.esm.js:17051
+await in __PRIVATE_syncEngineWrite
+eval @ index.esm.js:22385
+await in eval
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+__PRIVATE_firestoreClientWrite @ index.esm.js:22385
+executeWrite @ index.esm.js:22387
+setDoc @ index.esm.js:22125
+saveQuizResponse @ userData.ts:114
+fetchRecommendations @ ResultsPage.tsx:80
+ResultsPage._session_user @ ResultsPage.tsx:172
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+userData.ts:117 Error saving quiz response: FirebaseError: Missing or insufficient permissions.
+window.console.error @ app-index.js:33
+console.error @ hydration-error-info.js:63
+saveQuizResponse @ userData.ts:117
+await in saveQuizResponse
+fetchRecommendations @ ResultsPage.tsx:80
+ResultsPage._session_user @ ResultsPage.tsx:172
+commitHookEffectListMount @ react-dom.development.js:21102
+invokePassiveEffectMountInDEV @ react-dom.development.js:23980
+invokeEffectsInDev @ react-dom.development.js:26852
+legacyCommitDoubleInvokeEffectsInDEV @ react-dom.development.js:26835
+commitDoubleInvokeEffectsInDEV @ react-dom.development.js:26816
+flushPassiveEffectsImpl @ react-dom.development.js:26514
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+userData.ts:114  POST https://firestore.googleapis.com/google.firestore.v1.Firestore/Write/channel?VER=8&database=projects%2Fcareer-advisor-00%2Fdatabases%2F(default)&gsessionid=2NX_7lFxvwhWmozUUdjxub9u2M2qRGqGLtuSDJqzQTY&SID=EyilIaUgYPTo8WQiHb5q3Q&RID=26466&TYPE=terminate&zx=cal6yqpzawjm 400 (Bad Request)
+gc @ webchannel_blob_es2018.js:96
+Y.close @ webchannel_blob_es2018.js:109
+eval @ index.esm.js:14684
+eval @ index.esm.js:14635
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Z.ta @ webchannel_blob_es2018.js:111
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:57
+fd @ webchannel_blob_es2018.js:103
+h.Fa @ webchannel_blob_es2018.js:102
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+ec @ webchannel_blob_es2018.js:101
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:56
+Hb @ webchannel_blob_es2018.js:55
+h.Ga @ webchannel_blob_es2018.js:99
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+fc @ webchannel_blob_es2018.js:97
+h.connect @ webchannel_blob_es2018.js:95
+Y.m @ webchannel_blob_es2018.js:109
+Yo @ index.esm.js:14626
+send @ index.esm.js:14480
+q_ @ index.esm.js:15004
+ra @ index.esm.js:15252
+__PRIVATE_onWriteStreamOpen @ index.esm.js:15724
+eval @ index.esm.js:15087
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15086
+__ @ index.esm.js:14486
+eval @ index.esm.js:14694
+setTimeout
+T_ @ index.esm.js:14689
+j_ @ index.esm.js:15226
+G_ @ index.esm.js:15083
+eval @ index.esm.js:15073
+Promise.then
+auth @ index.esm.js:15064
+start @ index.esm.js:14969
+start @ index.esm.js:15220
+__PRIVATE_startWriteStream @ index.esm.js:15720
+__PRIVATE_fillWritePipeline @ index.esm.js:15696
+await in __PRIVATE_fillWritePipeline
+__PRIVATE_handleWriteError @ index.esm.js:15761
+await in __PRIVATE_handleWriteError
+__PRIVATE_onWriteStreamClose @ index.esm.js:15763
+close @ index.esm.js:15054
+z_ @ index.esm.js:15105
+eval @ index.esm.js:15089
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15089
+a_ @ index.esm.js:14489
+eval @ index.esm.js:14684
+eval @ index.esm.js:14635
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Z.ta @ webchannel_blob_es2018.js:111
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:57
+fd @ webchannel_blob_es2018.js:103
+h.Fa @ webchannel_blob_es2018.js:102
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+ec @ webchannel_blob_es2018.js:101
+Rb @ webchannel_blob_es2018.js:66
+M.Y @ webchannel_blob_es2018.js:60
+M.ca @ webchannel_blob_es2018.js:57
+ab @ webchannel_blob_es2018.js:52
+F @ webchannel_blob_es2018.js:50
+Wc @ webchannel_blob_es2018.js:89
+h.bb @ webchannel_blob_es2018.js:88
+h.Ea @ webchannel_blob_es2018.js:88
+Lc @ webchannel_blob_es2018.js:84
+h.Pa @ webchannel_blob_es2018.js:82
+Promise.then
+Nc @ webchannel_blob_es2018.js:82
+h.Sa @ webchannel_blob_es2018.js:82
+Promise.then
+h.send @ webchannel_blob_es2018.js:79
+h.ea @ webchannel_blob_es2018.js:87
+Jb @ webchannel_blob_es2018.js:56
+Hb @ webchannel_blob_es2018.js:55
+h.Ga @ webchannel_blob_es2018.js:99
+Da @ webchannel_blob_es2018.js:41
+Promise.then
+x @ webchannel_blob_es2018.js:41
+fc @ webchannel_blob_es2018.js:97
+h.connect @ webchannel_blob_es2018.js:95
+Y.m @ webchannel_blob_es2018.js:109
+Yo @ index.esm.js:14626
+send @ index.esm.js:14480
+q_ @ index.esm.js:15004
+ra @ index.esm.js:15252
+__PRIVATE_onWriteStreamOpen @ index.esm.js:15724
+eval @ index.esm.js:15087
+eval @ index.esm.js:15114
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+eval @ index.esm.js:15114
+eval @ index.esm.js:15086
+__ @ index.esm.js:14486
+eval @ index.esm.js:14694
+setTimeout
+T_ @ index.esm.js:14689
+j_ @ index.esm.js:15226
+G_ @ index.esm.js:15083
+eval @ index.esm.js:15073
+Promise.then
+auth @ index.esm.js:15064
+start @ index.esm.js:14969
+start @ index.esm.js:15220
+__PRIVATE_startWriteStream @ index.esm.js:15720
+__PRIVATE_fillWritePipeline @ index.esm.js:15696
+await in __PRIVATE_fillWritePipeline
+__PRIVATE_syncEngineWrite @ index.esm.js:17051
+await in __PRIVATE_syncEngineWrite
+eval @ index.esm.js:22385
+await in eval
+eval @ index.esm.js:19335
+eval @ index.esm.js:19368
+Promise.then
+cc @ index.esm.js:19368
+enqueue @ index.esm.js:19335
+enqueueAndForget @ index.esm.js:19313
+__PRIVATE_firestoreClientWrite @ index.esm.js:22385
+executeWrite @ index.esm.js:22387
+setDoc @ index.esm.js:22125
+saveQuizResponse @ userData.ts:114
+fetchRecommendations @ ResultsPage.tsx:80
+ResultsPage._session_user @ ResultsPage.tsx:172
+commitHookEffectListMount @ react-dom.development.js:21102
+commitHookPassiveMountEffects @ react-dom.development.js:23154
+commitPassiveMountOnFiber @ react-dom.development.js:23259
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23334
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23256
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23370
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
+commitPassiveMountOnFiber @ react-dom.development.js:23267
+commitPassiveMountEffects @ react-dom.development.js:23225
+flushPassiveEffectsImpl @ react-dom.development.js:26497
+flushPassiveEffects @ react-dom.development.js:26438
+commitRootImpl @ react-dom.development.js:26337
+commitRoot @ react-dom.development.js:26077
+performSyncWorkOnRoot @ react-dom.development.js:24925
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:7758
+flushSyncWorkOnAllRoots @ react-dom.development.js:7718
+processRootScheduleInMicrotask @ react-dom.development.js:7863
+eval @ react-dom.development.js:8034
+ResultsPage.tsx:94 API response status: 200
+ResultsPage.tsx:101 Received AI response: {personaName: 'The Adaptive Explorer', personaSummary: "You're curious and flexible, with a natural abilit…lore various options before committing to a path.", recommendedRoles: Array(5)}personaName: "The Adaptive Explorer"personaSummary: "You're curious and flexible, with a natural ability to adapt to different environments. You thrive when you can explore various options before committing to a path."recommendedRoles: Array(5)0: {role: 'Full Stack Developer', reason: 'With your unique combination of skills and talents…ines both technical and creative problem-solving.'}1: {role: 'Digital Marketing Entrepreneur', reason: 'This field is ideal for individuals with your comb…portunities for creative freedom and remote work.'}2: {role: 'Civil Services (IAS/IPS)', reason: 'This career path aligns with your unique talents a…ision-making skills for creating systemic change.'}3: {role: 'Freelance UX Consultant', reason: 'The skills you possess are highly valuable in work…on user experience projects with various clients.'}4: {role: 'EdTech Product Manager', reason: 'With your unique combination of skills and talents…g products that combine technology with learning.'}length: 5[[Prototype]]: Array(0)[[Prototype]]: Object
+ResultsPage.tsx:154 Transformed persona: {id: 'ai-generated', name: 'The Adaptive Explorer', description: "You're curious and flexible, with a natural abilit…lore various options before committing to a path.", strengths: Array(3), matchScore: 100, …}
+ResultsPage.tsx:155 Transformed roles: (5) [{…}, {…}, {…}, {…}, {…}]
+ResultsPage.tsx:94 API response status: 200
+ResultsPage.tsx:101 Received AI response: {personaName: 'The Adaptive Explorer', personaSummary: "You're curious and flexible, with a natural abilit…lore various options before committing to a path.", recommendedRoles: Array(5)}
+ResultsPage.tsx:154 Transformed persona: {id: 'ai-generated', name: 'The Adaptive Explorer', description: "You're curious and flexible, with a natural abilit…lore various options before committing to a path.", strengths: Array(3), matchScore: 100, …}
+ResultsPage.tsx:155 Transformed roles: (5) [{…}, {…}, {…}, {…}, {…}]
