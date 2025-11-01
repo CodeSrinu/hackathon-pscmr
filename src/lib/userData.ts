@@ -1,6 +1,5 @@
 // src/lib/userData.ts
-import { db } from './firebase';
-import { collection, doc, setDoc, getDoc, updateDoc, addDoc } from 'firebase/firestore';
+import { supabase } from './supabase';
 import { PSYCHOLOGY_QUIZ_VERSION } from './psychologyScoring';
 import { RECOMMENDATION_ENGINE_VERSION } from './recommendationEngine';
 
@@ -97,22 +96,27 @@ export interface UserProfile {
 
 export async function saveQuizResponse(userId: string, answers: Record<string, any>, userAgentInfo?: string): Promise<string | null> {
   try {
-    const responseRef = doc(collection(db, 'quizResponses'));
-    // Filter out undefined values before saving to Firestore
-    const quizData: Partial<QuizResponse> = {
-      userId,
+    // Prepare quiz data with proper timestamp formatting for Supabase
+    const quizData = {
+      user_id: userId,
       answers,
-      timestamp: new Date(),
-      quizVersion: PSYCHOLOGY_QUIZ_VERSION
+      timestamp: new Date().toISOString(),
+      quiz_version: PSYCHOLOGY_QUIZ_VERSION,
+      user_agent_info: userAgentInfo || null
     };
-    
-    // Only add userAgentInfo if it's defined
-    if (userAgentInfo !== undefined) {
-      quizData.userAgentInfo = userAgentInfo;
+
+    const { data, error } = await supabase
+      .from('quiz_responses')
+      .insert([quizData])
+      .select('id')
+      .single();
+
+    if (error) {
+      console.error('Error saving quiz response:', error);
+      return null;
     }
-    
-    await setDoc(responseRef, quizData);
-    return responseRef.id;
+
+    return data?.id || null;
   } catch (error) {
     console.error('Error saving quiz response:', error);
     // Don't throw the error, just return null to allow the app to continue
@@ -122,15 +126,26 @@ export async function saveQuizResponse(userId: string, answers: Record<string, a
 
 export async function saveRecommendation(userId: string, persona: Persona, domains: DomainMatch[]): Promise<string> {
   try {
-    const recRef = doc(collection(db, 'userRecommendations'));
-    await setDoc(recRef, {
-      userId,
+    const recommendationData = {
+      user_id: userId,
       persona,
       domains,
-      timestamp: new Date(),
-      engineVersion: RECOMMENDATION_ENGINE_VERSION
-    } as Recommendation);
-    return recRef.id;
+      timestamp: new Date().toISOString(),
+      engine_version: RECOMMENDATION_ENGINE_VERSION
+    };
+
+    const { data, error } = await supabase
+      .from('user_recommendations')
+      .insert([recommendationData])
+      .select('id')
+      .single();
+
+    if (error) {
+      console.error('Error saving recommendation:', error);
+      throw error;
+    }
+
+    return data?.id || '';
   } catch (error) {
     console.error('Error saving recommendation:', error);
     throw error;
@@ -146,17 +161,37 @@ export async function saveUserFeedback(
   additionalFeedback?: Partial<UserFeedback>
 ): Promise<string> {
   try {
-    const feedbackRef = doc(collection(db, 'userFeedback'));
-    await setDoc(feedbackRef, {
-      userId,
-      recommendationId,
-      domainId,
+    const feedbackData = {
+      user_id: userId,
+      recommendation_id: recommendationId,
+      domain_id: domainId,
       rating,
       comments,
-      timestamp: new Date(),
-      ...additionalFeedback
-    } as UserFeedback);
-    return feedbackRef.id;
+      timestamp: new Date().toISOString(),
+      helpfulness: additionalFeedback?.helpfulness || null,
+      accuracy: additionalFeedback?.accuracy || null,
+      relevance: additionalFeedback?.relevance || null,
+      ease_of_use: additionalFeedback?.easeOfUse || null,
+      would_recommend: additionalFeedback?.wouldRecommend || null,
+      improvement_suggestions: additionalFeedback?.improvementSuggestions || null,
+      quiz_question_feedback: additionalFeedback?.quizQuestionFeedback || null,
+      domain_specific_feedback: additionalFeedback?.domainSpecificFeedback || null,
+      user_agent_info: additionalFeedback?.userAgentInfo || null,
+      session_duration: additionalFeedback?.sessionDuration || null
+    };
+
+    const { data, error } = await supabase
+      .from('user_feedback')
+      .insert([feedbackData])
+      .select('id')
+      .single();
+
+    if (error) {
+      console.error('Error saving feedback:', error);
+      throw error;
+    }
+
+    return data?.id || '';
   } catch (error) {
     console.error('Error saving feedback:', error);
     throw error;
@@ -165,8 +200,31 @@ export async function saveUserFeedback(
 
 export async function getUserProfile(userId: string): Promise<UserProfile | null> {
   try {
-    const userDoc = await getDoc(doc(db, 'users', userId));
-    return userDoc.exists() ? userDoc.data() as UserProfile : null;
+    const { data, error } = await supabase
+      .from('users')
+      .select('*')
+      .eq('id', userId)
+      .single();
+
+    if (error) {
+      console.error('Error fetching user profile:', error);
+      throw error;
+    }
+
+    if (!data) {
+      return null;
+    }
+
+    // Map Supabase field names back to our interface
+    return {
+      name: data.name,
+      email: data.email,
+      createdAt: data.created_at ? new Date(data.created_at) : undefined,
+      lastLogin: data.last_login ? new Date(data.last_login) : undefined,
+      demographics: data.demographics || undefined,
+      preferences: data.preferences || undefined,
+      onboardingCompleted: data.onboarding_completed ? new Date(data.onboarding_completed) : undefined,
+    };
   } catch (error) {
     console.error('Error fetching user profile:', error);
     throw error;
@@ -175,12 +233,26 @@ export async function getUserProfile(userId: string): Promise<UserProfile | null
 
 export async function saveUserProfile(userId: string, profileData: Partial<UserProfile>): Promise<string> {
   try {
-    const userRef = doc(db, 'users', userId);
-    await setDoc(userRef, {
-      ...profileData,
-      userId,
-      updatedAt: new Date(),
-    }, { merge: true });
+    // Prepare profile data with proper field mappings
+    const profileUpdateData = {
+      name: profileData.name,
+      email: profileData.email,
+      demographics: profileData.demographics,
+      preferences: profileData.preferences,
+      onboarding_completed: profileData.onboardingCompleted ? new Date(profileData.onboardingCompleted).toISOString() : undefined,
+      updated_at: new Date().toISOString(),
+    };
+
+    // If the user doesn't exist, insert a new record, otherwise update
+    const { error } = await supabase
+      .from('users')
+      .upsert([{ id: userId, ...profileUpdateData }], { onConflict: 'id' });
+
+    if (error) {
+      console.error('Error saving user profile:', error);
+      throw error;
+    }
+
     return userId;
   } catch (error) {
     console.error('Error saving user profile:', error);

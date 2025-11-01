@@ -1,6 +1,4 @@
 // src/lib/recommendationEngine.ts
-import { db } from './firebase';
-import { collection, getDocs } from 'firebase/firestore';
 import { DomainMatch, Persona } from './userData';
 import { generatePersonaAndRoles } from './aiService';
 import { AIRecommendationResponse } from '@/types/ai.types';

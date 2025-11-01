@@ -1,6 +1,5 @@
 // src/lib/feedbackProcessor.ts
-import { db } from './firebase';
-import { collection, getDocs, updateDoc, doc } from 'firebase/firestore';
+import { supabase } from './supabase';
 import { UserFeedback } from './userData';
 import { RECOMMENDATION_ENGINE_VERSION } from './recommendationEngine';
 
@@ -111,14 +110,27 @@ export async function processFeedback(feedback: UserFeedback): Promise<boolean> 
 export async function getFeedbackStats(domainId: string): Promise<FeedbackStats> {
   try {
     // Get all feedback for a specific domain
-    const feedbackSnapshot = await getDocs(collection(db, 'userFeedback'));
-    const feedbackData = feedbackSnapshot.docs.map(doc => doc.data()) as UserFeedback[];
-    
-    // Filter feedback for the specific domain
-    const domainFeedback = feedbackData.filter(fb => fb.domainId === domainId);
-    
+    const { data, error } = await supabase
+      .from('user_feedback')
+      .select('*')
+      .eq('domain_id', domainId);
+
+    if (error) {
+      console.error('Error getting feedback stats:', error);
+      throw error;
+    }
+
+    if (!data) {
+      return {
+        totalFeedback: 0,
+        averageRating: 0,
+        positiveFeedback: 0,
+        negativeFeedback: 0
+      };
+    }
+
     // Calculate statistics
-    if (domainFeedback.length === 0) {
+    if (data.length === 0) {
       return {
         totalFeedback: 0,
         averageRating: 0,
@@ -127,14 +139,14 @@ export async function getFeedbackStats(domainId: string): Promise<FeedbackStats>
       };
     }
     
-    const totalRating = domainFeedback.reduce((sum, fb) => sum + fb.rating, 0);
-    const averageRating = totalRating / domainFeedback.length;
+    const totalRating = data.reduce((sum, fb) => sum + fb.rating, 0);
+    const averageRating = totalRating / data.length;
     
-    const positiveFeedback = domainFeedback.filter(fb => fb.rating >= 4).length;
-    const negativeFeedback = domainFeedback.filter(fb => fb.rating <= 2).length;
+    const positiveFeedback = data.filter(fb => fb.rating >= 4).length;
+    const negativeFeedback = data.filter(fb => fb.rating <= 2).length;
     
     return {
-      totalFeedback: domainFeedback.length,
+      totalFeedback: data.length,
       averageRating: parseFloat(averageRating.toFixed(2)),
       positiveFeedback,
       negativeFeedback
@@ -148,9 +160,45 @@ export async function getFeedbackStats(domainId: string): Promise<FeedbackStats>
 export async function analyzeFeedbackPatterns(): Promise<FeedbackPatterns> {
   try {
     // Get all feedback data
-    const feedbackSnapshot = await getDocs(collection(db, 'userFeedback'));
-    const feedbackData = feedbackSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })) as (UserFeedback & { id: string })[];
-    
+    const { data, error } = await supabase
+      .from('user_feedback')
+      .select('*');
+
+    if (error) {
+      console.error('Error analyzing feedback patterns:', error);
+      throw error;
+    }
+
+    if (!data) {
+      return {
+        totalFeedback: 0,
+        averageRating: 0,
+        domainPerformance: {},
+        recommendationSuccess: 0
+      };
+    }
+
+    // Map Supabase field names to our interface
+    const feedbackData: (UserFeedback & { id: string })[] = data.map(fb => ({
+      id: fb.id,
+      userId: fb.user_id,
+      recommendationId: fb.recommendation_id,
+      domainId: fb.domain_id,
+      rating: fb.rating,
+      comments: fb.comments,
+      timestamp: new Date(fb.timestamp),
+      helpfulness: fb.helpfulness,
+      accuracy: fb.accuracy,
+      relevance: fb.relevance,
+      easeOfUse: fb.ease_of_use,
+      wouldRecommend: fb.would_recommend,
+      improvementSuggestions: fb.improvement_suggestions,
+      quizQuestionFeedback: fb.quiz_question_feedback,
+      domainSpecificFeedback: fb.domain_specific_feedback,
+      userAgentInfo: fb.user_agent_info,
+      sessionDuration: fb.session_duration
+    }));
+
     // Analyze patterns in the feedback
     // This is a simplified example - in a real implementation, this would be more complex
     
