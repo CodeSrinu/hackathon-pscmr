@@ -1,437 +1,121 @@
-"main-app.js?v=1761982421440:1825 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
-page.tsx:49 Deep-dive parameters found: {roleId: 'user-goal-contnt-creato', roleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', roleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-RoleDeepDivePage.tsx:31 Fetching deep dive data for role: contnt creato
-RoleDeepDivePage.tsx:36 Calling /api/ai-deep-dive...
-page.tsx:49 Deep-dive parameters found: {roleId: 'user-goal-contnt-creato', roleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', roleRank: 1}
-RoleDeepDivePage.tsx:31 Fetching deep dive data for role: contnt creato
-RoleDeepDivePage.tsx:36 Calling /api/ai-deep-dive...
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-RoleDeepDivePage.tsx:37  POST http://localhost:3000/api/ai-deep-dive 404 (Not Found)
-fetchDeepDiveData @ RoleDeepDivePage.tsx:37
-eval @ RoleDeepDivePage.tsx:109
-commitHookEffectListMount @ react-dom.development.js:21102
-commitHookPassiveMountEffects @ react-dom.development.js:23154
-commitPassiveMountOnFiber @ react-dom.development.js:23259
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23334
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23267
-commitPassiveMountEffects @ react-dom.development.js:23225
-flushPassiveEffectsImpl @ react-dom.development.js:26497
-flushPassiveEffects @ react-dom.development.js:26438
-eval @ react-dom.development.js:26172
-workLoop @ scheduler.development.js:256
-flushWork @ scheduler.development.js:225
-performWorkUntilDeadline @ scheduler.development.js:534
-RoleDeepDivePage.tsx:48 Deep dive API response status: 404
-RoleDeepDivePage.tsx:37  POST http://localhost:3000/api/ai-deep-dive 404 (Not Found)
-fetchDeepDiveData @ RoleDeepDivePage.tsx:37
-eval @ RoleDeepDivePage.tsx:109
-commitHookEffectListMount @ react-dom.development.js:21102
-invokePassiveEffectMountInDEV @ react-dom.development.js:23980
-invokeEffectsInDev @ react-dom.development.js:26852
-legacyCommitDoubleInvokeEffectsInDEV @ react-dom.development.js:26835
-commitDoubleInvokeEffectsInDEV @ react-dom.development.js:26816
-flushPassiveEffectsImpl @ react-dom.development.js:26514
-flushPassiveEffects @ react-dom.development.js:26438
-eval @ react-dom.development.js:26172
-workLoop @ scheduler.development.js:256
-flushWork @ scheduler.development.js:225
-performWorkUntilDeadline @ scheduler.development.js:534
-RoleDeepDivePage.tsx:48 Deep dive API response status: 404
-RoleDeepDivePage.tsx:52 Deep dive API request failed: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1761982423468" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1761982423468"/><script src="/_next/static/chunks/main-app.js?v=1761982423468" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><title>404: This page could not be found.</title><title>Career Quest</title><meta name="description" content="Discover your perfect career path"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=swap" rel="stylesheet"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body><main class="pb-16"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div></main><div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200"><div class="flex justify-around items-center h-16"><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg></span><span class="text-xs">Home</span></a><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/domain-explorer"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></span><span class="text-xs">Explore</span></a><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/profile"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg></span><span class="text-xs">Profile</span></a></div></div><script src="/_next/static/chunks/webpack.js?v=1761982423468" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/app/layout.css?v=1761982423468\",\"style\"]\n0:D{\"name\":\"rQ\",\"env\":\"Server\"}\n"])</script><script>self.__next_f.push([1,"2:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n5:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n6:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n8:I[\"(app-pages-browser)/./src/components/SessionProviderWrapper.tsx\",[\"app/layout\",\"static/chunks/app/layout.js\"],\"default\"]\ne:I[\"(app-pages-browser)/./src/components/mobile/MobileNavigation.tsx\",[\"app/layout\",\"static/chunks/app/layout.js\"],\"default\"]\n10:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n3:D{\"name\":\"\",\"env\":\"Server\"}\n4:D{\"name\":\"NotFound\",\"env\":\"Server\"}\n4:[[\"$\",\"title\",nul
+video-lecture?moduleId=lec_1&moduleName=Basic+Electrical+%26+Circuit+Theory+%28Ohm%27s%2C+Kirchhoff…:1 Refused to load the font 'https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2' because it violates the following Content Security Policy directive: "font-src 'self' https://fonts.gstatic.com data:".
+
+index.iife.js:40 content ui loaded
+content.js:13 Refused to load the script 'blob:http://localhost:3000/343d339c-1325-4007-a48f-89158bc6434a' because it violates the following Content Security Policy directive: "script-src-elem 'self' 'unsafe-inline' https://www.youtube.com https://s.ytimg.com https://www.google.com https://apis.google.com https://ssl.gstatic.com https://www.gstatic.com https://www.googletagmanager.com https://www.google-analytics.com https://*.youtube.com https://*.google.com https://*.gstatic.com https://youtube.com https://www.youtube-nocookie.com https://www.youtubeeducation.com https://www-onepick-opensocial.googleusercontent.com https://*.doubleclick.net https://*.googleapis.com https://www.googleadservices.com https://tpc.googlesyndication.com https://www.youtubekids.com".
+
+(anonymous) @ content.js:13
+await in (anonymous)
+(anonymous) @ content.js:13
+(anonymous) @ content.js:13
+(anonymous) @ content.js:13
+content.js:13 Warning: Extra attributes from the server: crxlauncher
+    at html
+    at RootLayout (Server)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:577:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:117:11)
 window.console.error @ app-index.js:33
 console.error @ hydration-error-info.js:63
-fetchDeepDiveData @ RoleDeepDivePage.tsx:52
-await in fetchDeepDiveData
-eval @ RoleDeepDivePage.tsx:109
-commitHookEffectListMount @ react-dom.development.js:21102
-commitHookPassiveMountEffects @ react-dom.development.js:23154
-commitPassiveMountOnFiber @ react-dom.development.js:23259
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23334
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23267
-commitPassiveMountEffects @ react-dom.development.js:23225
-flushPassiveEffectsImpl @ react-dom.development.js:26497
-flushPassiveEffects @ react-dom.development.js:26438
-eval @ react-dom.development.js:26172
+printWarning @ react-dom.development.js:94
+error @ react-dom.development.js:68
+warnForExtraAttributes @ react-dom.development.js:32731
+diffHydratedProperties @ react-dom.development.js:35117
+hydrateInstance @ react-dom.development.js:36127
+prepareToHydrateHostInstance @ react-dom.development.js:7246
+completeWork @ react-dom.development.js:19725
+completeUnitOfWork @ react-dom.development.js:25963
+performUnitOfWork @ react-dom.development.js:25759
+workLoopConcurrent @ react-dom.development.js:25734
+renderRootConcurrent @ react-dom.development.js:25690
+performConcurrentWorkOnRoot @ react-dom.development.js:24504
 workLoop @ scheduler.development.js:256
 flushWork @ scheduler.development.js:225
 performWorkUntilDeadline @ scheduler.development.js:534
-RoleDeepDivePage.tsx:67 Error fetching deep dive data: Error: API request failed with status 404: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1761982423468" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1761982423468"/><script src="/_next/static/chunks/main-app.js?v=1761982423468" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><title>404: This page could not be found.</title><title>Career Quest</title><meta name="description" content="Discover your perfect career path"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=swap" rel="stylesheet"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body><main class="pb-16"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div></main><div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200"><div class="flex justify-around items-center h-16"><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg></span><span class="text-xs">Home</span></a><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/domain-explorer"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></span><span class="text-xs">Explore</span></a><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/profile"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg></span><span class="text-xs">Profile</span></a></div></div><script src="/_next/static/chunks/webpack.js?v=1761982423468" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/app/layout.css?v=1761982423468\",\"style\"]\n0:D{\"name\":\"rQ\",\"env\":\"Server\"}\n"])</script><script>self.__next_f.push([1,"2:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n5:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n6:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n8:I[\"(app-pages-browser)/./src/components/SessionProviderWrapper.tsx\",[\"app/layout\",\"static/chunks/app/layout.js\"],\"default\"]\ne:I[\"(app-pages-browser)/./src/components/mobile/MobileNavigation.tsx\",[\"app/layout\",\"static/chunks/app/layout.js\"],\"default\"]\n10:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n3:D{\"name\":\"\",\"env\":\"Server\"}\n4:D{\"name\":\"NotFound\",\    at fetchDeepDiveData (RoleDeepDivePage.tsx:53:17)
-window.console.error @ app-index.js:33
-console.error @ hydration-error-info.js:63
-fetchDeepDiveData @ RoleDeepDivePage.tsx:67
-await in fetchDeepDiveData
-eval @ RoleDeepDivePage.tsx:109
-commitHookEffectListMount @ react-dom.development.js:21102
-commitHookPassiveMountEffects @ react-dom.development.js:23154
-commitPassiveMountOnFiber @ react-dom.development.js:23259
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23334
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23256
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23370
-recursivelyTraversePassiveMountEffects @ react-dom.development.js:23237
-commitPassiveMountOnFiber @ react-dom.development.js:23267
-commitPassiveMountEffects @ react-dom.development.js:23225
-flushPassiveEffectsImpl @ react-dom.development.js:26497
-flushPassiveEffects @ react-dom.development.js:26438
-eval @ react-dom.development.js:26172
-workLoop @ scheduler.development.js:256
-flushWork @ scheduler.development.js:225
-performWorkUntilDeadline @ scheduler.development.js:534
-RoleDeepDivePage.tsx:52 Deep dive API request failed: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1761982423469" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1761982423469"/><script src="/_next/static/chunks/main-app.js?v=1761982423469" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><title>404: This page could not be found.</title><title>Career Quest</title><meta name="description" content="Discover your perfect career path"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=swap" rel="stylesheet"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body><main class="pb-16"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div></main><div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200"><div class="flex justify-around items-center h-16"><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg></span><span class="text-xs">Home</span></a><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/domain-explorer"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></span><span class="text-xs">Explore</span></a><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/profile"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg></span><span class="text-xs">Profile</span></a></div></div><script src="/_next/static/chunks/webpack.js?v=1761982423469" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/app/layout.css?v=1761982423469\",\"style\"]\n0:D{\"name\":\"rQ\",\"env\":\"Server\"}\n"])</script><script>self.__next_f.push([1,"2:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n5:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n6:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n8:I[\"(app-pages-browser)/./src/components/SessionProviderWrapper.tsx\",[\"app/layout\",\"static/chunks/app/layout.js\"],\"default\"]\ne:I[\"(app-pages-browser)/./src/components/mobile/MobileNavigation.tsx\",[\"app/layout\",\"static/chunks/app/layout.js\"],\"default\"]\n10:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n3:D{\"name\":\"\",\"env\":\"Server\"}\n4:D{\"name\":\"NotFound\",\"env\":\"Server\"}\n4:[[\"$\",\"title\",nul
-window.console.error @ app-index.js:33
-console.error @ hydration-error-info.js:63
-fetchDeepDiveData @ RoleDeepDivePage.tsx:52
-await in fetchDeepDiveData
-eval @ RoleDeepDivePage.tsx:109
-commitHookEffectListMount @ react-dom.development.js:21102
-invokePassiveEffectMountInDEV @ react-dom.development.js:23980
-invokeEffectsInDev @ react-dom.development.js:26852
-legacyCommitDoubleInvokeEffectsInDEV @ react-dom.development.js:26835
-commitDoubleInvokeEffectsInDEV @ react-dom.development.js:26816
-flushPassiveEffectsImpl @ react-dom.development.js:26514
-flushPassiveEffects @ react-dom.development.js:26438
-eval @ react-dom.development.js:26172
-workLoop @ scheduler.development.js:256
-flushWork @ scheduler.development.js:225
-performWorkUntilDeadline @ scheduler.development.js:534
-RoleDeepDivePage.tsx:67 Error fetching deep dive data: Error: API request failed with status 404: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1761982423469" data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack.js?v=1761982423469"/><script src="/_next/static/chunks/main-app.js?v=1761982423469" async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script src="/_next/static/chunks/app/layout.js" async=""></script><meta name="robots" content="noindex"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><title>404: This page could not be found.</title><title>Career Quest</title><meta name="description" content="Discover your perfect career path"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=swap" rel="stylesheet"/><script src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body><main class="pb-16"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div></main><div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200"><div class="flex justify-around items-center h-16"><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg></span><span class="text-xs">Home</span></a><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/domain-explorer"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></span><span class="text-xs">Explore</span></a><a class="flex flex-col items-center justify-center w-full h-full text-[#757575]" href="/profile"><span class="mb-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg></span><span class="text-xs">Profile</span></a></div></div><script src="/_next/static/chunks/webpack.js?v=1761982423469" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/app/layout.css?v=1761982423469\",\"style\"]\n0:D{\"name\":\"rQ\",\"env\":\"Server\"}\n"])</script><script>self.__next_f.push([1,"2:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n5:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n6:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n8:I[\"(app-pages-browser)/./src/components/SessionProviderWrapper.tsx\",[\"app/layout\",\"static/chunks/app/layout.js\"],\"default\"]\ne:I[\"(app-pages-browser)/./src/components/mobile/MobileNavigation.tsx\",[\"app/layout\",\"static/chunks/app/layout.js\"],\"default\"]\n10:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n3:D{\"name\":\"\",\"env\":\"Server\"}\n4:D{\"name\":\"NotFound\",\    at fetchDeepDiveData (RoleDeepDivePage.tsx:53:17)
-window.console.error @ app-index.js:33
-console.error @ hydration-error-info.js:63
-fetchDeepDiveData @ RoleDeepDivePage.tsx:67
-await in fetchDeepDiveData
-eval @ RoleDeepDivePage.tsx:109
-commitHookEffectListMount @ react-dom.development.js:21102
-invokePassiveEffectMountInDEV @ react-dom.development.js:23980
-invokeEffectsInDev @ react-dom.development.js:26852
-legacyCommitDoubleInvokeEffectsInDEV @ react-dom.development.js:26835
-commitDoubleInvokeEffectsInDEV @ react-dom.development.js:26816
-flushPassiveEffectsImpl @ react-dom.development.js:26514
-flushPassiveEffects @ react-dom.development.js:26438
-eval @ react-dom.development.js:26172
-workLoop @ scheduler.development.js:256
-flushWork @ scheduler.development.js:225
-performWorkUntilDeadline @ scheduler.development.js:534
-hot-reloader-client.js:187 [Fast Refresh] rebuilding
-hot-reloader-client.js:44 [Fast Refresh] done in 501ms
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-hot-reloader-client.js:187 [Fast Refresh] rebuilding
-hot-reloader-client.js:44 [Fast Refresh] done in 429ms
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-hot-reloader-client.js:187 [Fast Refresh] rebuilding
-hot-reloader-client.js:44 [Fast Refresh] done in 271ms
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-page.tsx:177 Rendering RoleDeepDivePage with props: {selectedRoleId: 'user-goal-contnt-creato', selectedRoleName: 'contnt creato', personaContext: 'User has chosen contnt creato as their career goal…score of null. Primary motivation: Not specified.', selectedRoleRank: 1}
-"
+(anonymous) @ content.js:13
+d @ content.js:13
+f @ content.js:13
+postMessage
+(anonymous) @ content.js:13
+u.setImmediate @ content.js:13
+schedulePerformWorkUntilDeadline @ scheduler.development.js:562
+performWorkUntilDeadline @ scheduler.development.js:539
+(anonymous) @ content.js:13
+d @ content.js:13
+f @ content.js:13
+postMessage
+(anonymous) @ content.js:13
+u.setImmediate @ content.js:13
+schedulePerformWorkUntilDeadline @ scheduler.development.js:562
+performWorkUntilDeadline @ scheduler.development.js:539
+(anonymous) @ content.js:13
+d @ content.js:13
+f @ content.js:13
+postMessage
+(anonymous) @ content.js:13
+u.setImmediate @ content.js:13
+schedulePerformWorkUntilDeadline @ scheduler.development.js:562
+performWorkUntilDeadline @ scheduler.development.js:539
+(anonymous) @ content.js:13
+d @ content.js:13
+f @ content.js:13
+postMessage
+(anonymous) @ content.js:13
+u.setImmediate @ content.js:13
+schedulePerformWorkUntilDeadline @ scheduler.development.js:562
+performWorkUntilDeadline @ scheduler.development.js:539
+(anonymous) @ content.js:13
+d @ content.js:13
+f @ content.js:13
+postMessage
+(anonymous) @ content.js:13
+u.setImmediate @ content.js:13
+schedulePerformWorkUntilDeadline @ scheduler.development.js:562
+performWorkUntilDeadline @ scheduler.development.js:539
+(anonymous) @ content.js:13
+d @ content.js:13
+f @ content.js:13
+postMessage
+(anonymous) @ content.js:13
+u.setImmediate @ content.js:13
+schedulePerformWorkUntilDeadline @ scheduler.development.js:562
+requestHostCallback @ scheduler.development.js:585
+unstable_scheduleCallback @ scheduler.development.js:444
+scheduleCallback$2 @ react-dom.development.js:7990
+scheduleTaskForRootDuringMicrotask @ react-dom.development.js:7954
+processRootScheduleInMicrotask @ react-dom.development.js:7827
+eval @ react-dom.development.js:8034
+page.tsx:36 VideoLecturePage mounted with parameters: {lectureId: 'lec_1', moduleId: 'lec_1', moduleName: "Basic Electrical & Circuit Theory (Ohm's, Kirchhoff's)", lectureTitle: 'Introduction to Electricity: Charge, Current, Voltage, Resistance'}
+page.tsx:61 
+🎯 ========== CLIENT: Loading Video Lecture ==========
+page.tsx:62 📝 Lecture ID: lec_1
+page.tsx:63 📝 Module ID: lec_1
+page.tsx:64 📝 Module Name: Basic Electrical & Circuit Theory (Ohm's, Kirchhoff's)
+page.tsx:65 📝 Lecture Title: Introduction to Electricity: Charge, Current, Voltage, Resistance
+page.tsx:67 🔄 Setting loading state to true...
+page.tsx:74 📝 Career Field from localStorage: General
+page.tsx:83 💾 Found cached lecture content in localStorage
+page.tsx:90 ✅ Cache is fresh (age: 86 minutes)
+page.tsx:91 📦 Using cached lecture data
+page.tsx:151 ✅ Received lecture data:
+page.tsx:152 📊 Lecture ID: default
+page.tsx:153 📊 Lecture Title: Introduction to Lecture
+page.tsx:154 📊 Video URL: https://www.youtube.com/embed/O_9u1P5Yj4Q
+page.tsx:155 📊 Duration: 15 minutes
+page.tsx:190 ✅ Setting lecture state...
+page.tsx:191 📊 Has Transcript: true
+page.tsx:192 📊 Has Cheat Sheet: true
+page.tsx:199 🎯 ========== CLIENT: Video Lecture Loaded Successfully ==========
+
+page.tsx:36 VideoLecturePage mounted with parameters: {lectureId: 'lec_1', moduleId: 'lec_1', moduleName: "Basic Electrical & Circuit Theory (Ohm's, Kirchhoff's)", lectureTitle: 'Introduction to Electricity: Charge, Current, Voltage, Resistance'}
+content.js:13 [Report Only] Refused to load the script 'blob:https://www.youtube.com/ac410f49-776b-43c2-88fb-996f3aa2f2c9' because it violates the following Content Security Policy directive: "script-src 'unsafe-eval' 'self' 'unsafe-inline' https://www.google.com https://apis.google.com https://ssl.gstatic.com https://www.gstatic.com https://www.googletagmanager.com https://www.google-analytics.com https://*.youtube.com https://*.google.com https://*.gstatic.com https://youtube.com https://www.youtube.com https://google.com https://*.doubleclick.net https://*.googleapis.com https://www.googleadservices.com https://tpc.googlesyndication.com https://www.youtubekids.com https://www.youtube-nocookie.com https://www.youtubeeducation.com https://www-onepick-opensocial.googleusercontent.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+

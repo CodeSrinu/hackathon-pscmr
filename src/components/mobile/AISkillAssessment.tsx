@@ -1,7 +1,7 @@
 // src/components/mobile/AISkillAssessment.tsx
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 interface SkillQuestion {
   id: string;
@@ -25,12 +25,12 @@ interface AISkillAssessmentProps {
   onSubmit: (result: SkillAssessmentResult) => void;
 }
 
-export default function AISkillAssessment({ 
-  roleId, 
-  roleName, 
-  domainId, 
-  onBack, 
-  onSubmit 
+export default function AISkillAssessment({
+  roleId,
+  roleName,
+  domainId,
+  onBack,
+  onSubmit
 }: AISkillAssessmentProps) {
   const [questions, setQuestions] = useState<SkillQuestion[]>([]);
   const [answers, setAnswers] = useState<Record<string, boolean>>({});
@@ -39,20 +39,33 @@ export default function AISkillAssessment({
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  // Use ref to prevent multiple API calls
+  const hasLoadedRef = useRef(false);
+  const loadedForRoleRef = useRef<string>('');
+
   console.log("AISkillAssessment mounted with:", { roleId, roleName, domainId });
-  
+
   // Load questions from AI API
   useEffect(() => {
+    // Prevent multiple calls for the same role
+    const roleKey = `${roleId}-${roleName}`;
+    if (hasLoadedRef.current && loadedForRoleRef.current === roleKey) {
+      console.log("⏭️ Skipping duplicate API call for:", roleKey);
+      return;
+    }
+
     console.log("\n🎯 ========== CLIENT: AISkillAssessment useEffect ==========");
     console.log("📝 Role ID:", roleId);
     console.log("📝 Role Name:", roleName);
     console.log("📝 Domain ID:", domainId);
 
+    let isMounted = true; // Track if component is still mounted
+
     const loadQuestions = async () => {
       try {
         console.log("🔄 Setting loading state to true...");
-        setIsLoading(true);
-        setError(null);
+        if (isMounted) setIsLoading(true);
+        if (isMounted) setError(null);
 
         console.log("📤 Calling /api/ai-skill-assessment/generate-questions...");
         const requestBody = { roleId, roleName, domainId };
@@ -81,6 +94,11 @@ export default function AISkillAssessment({
         console.log("📊 Questions count:", data.questions?.length || 0);
         console.log("📊 First question:", data.questions?.[0]);
 
+        if (!isMounted) {
+          console.log("⚠️ Component unmounted, skipping state update");
+          return;
+        }
+
         setQuestions(data.questions);
 
         // Initialize answers
@@ -90,6 +108,10 @@ export default function AISkillAssessment({
         });
         setAnswers(initialAnswers);
 
+        // Mark as loaded
+        hasLoadedRef.current = true;
+        loadedForRoleRef.current = roleKey;
+
         console.log("✅ Questions loaded and answers initialized");
         console.log("🎯 ========== CLIENT: Questions Loaded Successfully ==========\n");
       } catch (err: any) {
@@ -97,6 +119,11 @@ export default function AISkillAssessment({
         console.error('🚨 Error:', err);
         console.error('📋 Error message:', err.message);
         console.error('📋 Error stack:', err.stack);
+
+        if (!isMounted) {
+          console.log("⚠️ Component unmounted, skipping error handling");
+          return;
+        }
 
         setError('Failed to load assessment questions. Using default questions.');
 
@@ -115,18 +142,28 @@ export default function AISkillAssessment({
         });
         setAnswers(initialAnswers);
 
+        // Mark as loaded even on error
+        hasLoadedRef.current = true;
+        loadedForRoleRef.current = roleKey;
+
         console.log("✅ Fallback questions loaded");
         console.error("🎯 ========== CLIENT: Error Handled with Fallback ==========\n");
       } finally {
         console.log("🔄 Setting loading state to false...");
-        setIsLoading(false);
+        if (isMounted) setIsLoading(false);
       }
     };
-    
+
     if (roleId && roleName) {
       loadQuestions();
     }
-  }, [roleId, roleName]); // Remove domainId from dependencies since it's not used in the effect
+
+    // Cleanup function
+    return () => {
+      isMounted = false;
+      console.log("🧹 AISkillAssessment cleanup - component unmounting");
+    };
+  }, [roleId, roleName, domainId]); // Keep all dependencies but use ref to prevent duplicate calls
 
   const handleAnswer = (id: string, checked: boolean) => {
     console.log("Updating answer:", { id, checked });

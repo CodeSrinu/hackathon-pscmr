@@ -1,0 +1,452 @@
+PS>npm run dev
+
+> career-advisor@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.3
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ⚠ Your project has `@next/font` installed as a dependency, please use the built-in `next/font` instead. The `@next/font` package will be removed in Next.js 14. You can migrate by running `npx @next/codemod@latest built-in-next-font .`. Read more: https://nextjs.org/docs/messages/built-in-next-font   
+ ○ Compiling / ...
+ ✓ Compiled /api/auth/[...nextauth] in 5.3s (1029 modules)
+ GET / 200 in 6119ms
+ GET /api/auth/session 200 in 2692ms
+ GET /api/auth/session 200 in 62ms
+ GET /api/auth/session 200 in 26ms
+ GET /api/auth/session 200 in 16ms
+ GET /api/auth/session 200 in 43ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1328ms (1032 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1481ms
+ ✓ Compiled /api/validate-goal-input in 303ms (441 modules)
+
+🌐 ========== API: /api/validate-goal-input ==========
+📥 Received request to validate goal
+📝 User Goal: Embed systems
+
+🔍 ========== VALIDATING CAREER GOAL INPUT ==========
+📝 User Input: Embed systems
+🤖 Calling AI to validate career goal...
+📥 AI Response: ```json
+{
+  "isValid": true,
+  "reason": ""
+}
+```
+✅ Validation result: { isValid: true, reason: '' }
+🔍 ========== VALIDATION COMPLETE ==========
+
+✅ Career goal is valid
+🌐 ========== API COMPLETE ==========
+
+ POST /api/validate-goal-input 200 in 2601ms
+ ✓ Compiled /goal-validation in 347ms (823 modules)
+ ✓ Compiled /api/validate-goal in 266ms (450 modules)
+
+🌐 ========== API ROUTE: /api/validate-goal ==========
+📥 Received POST request
+📦 Request body: {
+  "userGoal": "Embed systems",
+  "answers": {
+    "primaryDrive": "Passion for the subject",
+    "tenYearVision": "Technical expert",
+    "problemSolvingApproach": "Solve it alone",
+    "preferredLearningStyle": "Hands-on practice",
+    "confidenceRating": "4"
+  }
+}
+
+🔍 Validating input...
+✅ userGoal present: true
+✅ answers present: true
+
+🔍 Validating answer fields...
+✅ primaryDrive: Passion for the subject
+✅ tenYearVision: Technical expert
+✅ problemSolvingApproach: Solve it alone
+✅ preferredLearningStyle: Hands-on practice
+✅ confidenceRating: 4
+
+🔍 Validating career goal legitimacy...
+✅ Career goal is valid
+
+🤖 Calling AI validation service...
+
+🔍 ========== AI GOAL VALIDATION DEBUG START ==========
+📝 User Goal: Embed systems
+📋 Quiz Answers: {
+  "primaryDrive": "Passion for the subject",
+  "tenYearVision": "Technical expert",
+  "problemSolvingApproach": "Solve it alone",
+  "preferredLearningStyle": "Hands-on practice",
+  "confidenceRating": "4"
+}
+
+🔑 Checking for GEMINI_API_KEY...
+✅ API Key exists: true
+📏 API Key length: 39
+
+🤖 Initializing Google Generative AI client...
+🎯 Using model: gemini-2.5-flash
+✅ Model initialized successfully
+
+📤 Sending prompt to AI...
+📝 Prompt length: 3344 characters
+✅ AI response received
+
+📥 Raw AI Response:
+────────────────────────────────────────────────────────────────────────────────
+```json
+{
+  "validatedGoal": "Embed systems",
+  "validationStatus": "Excellent Match",
+  "validationSummary": "Your intrinsic motivation and dedication to becoming a technical expert are significant assets for a career in embedded systems. This path strongly aligns with individuals who thrive on practical application and deep dives into complex technical challenges. Your approach suggests you're well-poised to build a highly specialized and rewarding career.",
+  "actionableInsights": {
+    "superpower": "Your preference for 'hands-on practice' is a true superpower for an embedded systems engineer, as practical application, coding, and debugging real-world hardware are fundamental to success in this domain.",
+    "thingToConsider": "While your inclination to 'solve it alone' is a valuable trait for deep technical problem-solving in embedded systems, remember that larger projects often require integrating your work with broader teams. Cultivating strong communication and collaborative skills will enhance your overall impact and project success."
+  }
+}
+```
+────────────────────────────────────────────────────────────────────────────────
+📏 Response length: 1069 characters
+
+🔍 Extracting JSON from response...
+📍 JSON start position: 8
+📍 JSON end position: 1065
+
+📄 Extracted JSON string:
+{
+  "validatedGoal": "Embed systems",
+  "validationStatus": "Excellent Match",
+  "validationSummary": "Your intrinsic motivation and dedication to becoming a technical expert are significant assets for a career in embedded systems. This path strongly aligns with individuals who thrive on practical application and deep dives into complex technical challenges. Your approach suggests you're well-poised to build a highly specialized and rewarding career.",
+  "actionableInsights": {
+    "superpower": "Your preference for 'hands-on practice' is a true superpower for an embedded systems engineer, as practical application, coding, and debugging real-world hardware are fundamental to success in this domain.",
+    "thingToConsider": "While your inclination to 'solve it alone' is a valuable trait for deep technical problem-solving in embedded systems, remember that larger projects often require integrating your work with broader teams. Cultivating strong communication and collaborative skills will enhance your overall impact and project success."
+  }
+}
+
+🔄 Parsing JSON...
+✅ JSON parsed successfully
+📊 Parsed response: {
+  "validatedGoal": "Embed systems",
+  "validationStatus": "Excellent Match",
+  "validationSummary": "Your intrinsic motivation and dedication to becoming a technical expert are significant assets for a career in embedded systems. This path strongly aligns with individuals who thrive on practical application and deep dives into complex technical challenges. Your approach suggests you're well-poised to build a highly specialized and rewarding career.",
+  "actionableInsights": {
+    "superpower": "Your preference for 'hands-on practice' is a true superpower for an embedded systems engineer, as practical application, coding, and debugging real-world hardware are fundamental to success in this domain.",
+    "thingToConsider": "While your inclination to 'solve it alone' is a valuable trait for deep technical problem-solving in embedded systems, remember that larger projects often require integrating your work with broader teams. Cultivating strong communication and collaborative skills will enhance your overall impact and project success."
+  }
+}
+
+🔍 Validating response structure...
+✅ Response structure validated
+🎯 Validation Status: Excellent Match
+🔍 ========== AI GOAL VALIDATION DEBUG END ==========
+
+✅ AI validation completed successfully
+📊 Validation response: {
+  "validatedGoal": "Embed systems",
+  "validationStatus": "Excellent Match",
+  "validationSummary": "Your intrinsic motivation and dedication to becoming a technical expert are significant assets for a career in embedded systems. This path strongly aligns with individuals who thrive on practical application and deep dives into complex technical challenges. Your approach suggests you're well-poised to build a highly specialized and rewarding career.",
+  "actionableInsights": {
+    "superpower": "Your preference for 'hands-on practice' is a true superpower for an embedded systems engineer, as practical application, coding, and debugging real-world hardware are fundamental to success in this domain.",
+    "thingToConsider": "While your inclination to 'solve it alone' is a valuable trait for deep technical problem-solving in embedded systems, remember that larger projects often require integrating your work with broader teams. Cultivating strong communication and collaborative skills will enhance your overall impact and project success."
+  }
+}
+
+📤 Sending response to client
+🌐 ========== API ROUTE END ==========
+
+ POST /api/validate-goal 200 in 11334ms
+ ✓ Compiled /api/ai-deep-dive in 309ms (453 modules)
+
+🌐 ========== API: /api/ai-deep-dive ==========
+📥 Request body: {
+  role: 'Embed systems',
+  personaContext: 'User has chosen Embed systems as their career goal with a pressure score of null. Primary motivation: Not specified.'
+}
+🤖 Generating deep dive content for role: Embed systems
+
+🤖 ========== AI SERVICE: generateRoleDeepDive ==========
+📝 Role: Embed systems
+📋 Persona Context: User has chosen Embed systems as their career goal with a pressure score of null. Primary motivation...
+✅ Running on server side
+✅ API Key found: AIzaSyDA45...
+🔧 Initializing Google Generative AI client...
+🔧 Getting generative model: gemini-2.5-flash
+📝 Generating deep dive prompt...
+✅ Generated deep dive prompt, length: 3200
+📤 Sending request to Gemini API...
+✅ Received response from Gemini API
+📏 Response length: 4438
+📄 First 200 chars: ```json
+{
+  "role": "Embed systems",
+  "description": "This path involves designing and developing specialized computer systems embedded within larger devices, ranging from smartphones and smart home
+🔧 Cleaning and parsing JSON response...
+✅ Successfully parsed deep dive AI response
+📊 Parsed role: Embed systems
+📊 Description length: 453
+📊 Daily responsibilities count: 5
+🤖 ========== AI SERVICE COMPLETE (SUCCESS) ==========
+
+✅ Deep dive content generated successfully
+🌐 ========== API COMPLETE ==========
+
+ POST /api/ai-deep-dive 200 in 14938ms
+ ✓ Compiled /skill-assessment in 401ms (834 modules)
+AISkillAssessment mounted with: {
+  roleId: 'user-goal-embed-systems',
+  roleName: 'Embed systems',
+  domainId: ''
+}
+ GET /skill-assessment?roleId=user-goal-embed-systems&roleName=Embed%20systems 200 in 585ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 717ms (837 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 883ms
+ ✓ Compiled /api/auth/[...nextauth] in 136ms (457 modules)
+ ✓ Compiled (684 modules)
+
+🌐 ========== API: /api/ai-skill-assessment/generate-questions ==========
+📥 Request body: {
+  roleId: 'user-goal-embed-systems',
+  roleName: 'Embed systems',
+  domainId: ''
+}
+📝 Role ID: user-goal-embed-systems
+📝 Role Name: Embed systems
+📝 Domain ID:
+⏰ Timestamp: 2025-11-02T05:07:19.231Z
+🔑 API Key available: true
+🔑 API Key length: 39
+🔑 API Key starts with: AIzaSyDA45...
+🤖 Initializing Google Generative AI client...
+🔧 Getting generative model: gemini-2.5-flash
+✅ Model initialized successfully
+📝 Generated prompt length: 2290
+📤 Sending request to Gemini API...
+ GET /api/auth/session 200 in 1169ms
+✅ Received response from Gemini API
+📏 Response length: 1229
+📄 First 200 chars: ```json
+{
+  "questions": [
+    "Have you ever written code in a low-level programming language such as C or C++?",
+    "Have you ever programmed a microcontroller (e.g., Arduino, ESP32, STM32) to perf
+🔧 Extracting JSON from response...
+📋 Extracted JSON length: 1217
+🔧 Parsing JSON...
+✅ JSON parsed successfully
+📊 Questions count: 10
+🔧 Transforming questions to expected format...
+✅ Transformed 10 questions
+📊 Final questions: [
+  { id: 'tb1', category: 'technical', difficulty: 'beginner' },
+  { id: 'tb2', category: 'technical', difficulty: 'beginner' },
+  { id: 'tb3', category: 'technical', difficulty: 'beginner' },
+  { id: 'tb4', category: 'technical', difficulty: 'beginner' },
+  { id: 'sb5', category: 'soft', difficulty: 'beginner' },
+  { id: 'eb6', category: 'experience', difficulty: 'beginner' },
+  { id: 'tb7', category: 'technical', difficulty: 'beginner' },
+  { id: 'eb8', category: 'experience', difficulty: 'beginner' },
+  { id: 'tb9', category: 'technical', difficulty: 'beginner' },
+  { id: 'eb10', category: 'experience', difficulty: 'beginner' }
+]
+🌐 ========== API COMPLETE (SUCCESS) ==========
+
+ POST /api/ai-skill-assessment/generate-questions 200 in 10817ms
+ ✓ Compiled /api/ai-skill-assessment/analyze-skills in 239ms (686 modules)
+
+🌐 ========== API: /api/ai-skill-assessment/analyze-skills ==========
+📥 Request body received
+📝 Role ID: user-goal-embed-systems
+📝 Role Name: Embed systems
+📝 Domain ID:
+📊 Questions count: 10
+📊 Answers count: 10
+📊 'Yes' answers: 4
+📝 Open response length: 0
+⏰ Timestamp: 2025-11-02T05:07:38.827Z
+🔑 API Key available: true
+🔑 API Key length: 39
+🔑 API Key starts with: AIzaSyDA45...
+🤖 Initializing Google Generative AI client...
+🔧 Getting generative model: gemini-2.5-flash
+✅ Model initialized successfully
+📝 Formatting answers for AI prompt...
+📊 Formatted 10 answers
+📝 Generated prompt length: 4048
+📤 Sending request to Gemini API...
+✅ Received response from Gemini API
+📏 Response length: 1711
+📄 First 200 chars: ```json
+{
+  "skillLevel": 2,
+  "analysisSummary": "You've made an excellent start in the world of embedded systems! Your hands-on experience with low-level programming and microcontroller tasks, combi
+🔧 Extracting JSON from response...
+📋 Extracted JSON length: 1699
+🔧 Parsing JSON...
+✅ JSON parsed successfully
+📊 Skill Level: 2
+📊 Analysis Summary length: 314
+📊 Strengths count: 2
+📊 Learning Opportunities count: 3
+✅ Response structure validated
+📊 Final result: { skillLevel: 2, strengthsCount: 2, opportunitiesCount: 3 }
+🌐 ========== API COMPLETE (SUCCESS) ==========
+
+ POST /api/ai-skill-assessment/analyze-skills 200 in 17271ms
+ ○ Compiling /career-quest ...
+ ✓ Compiled /career-quest in 679ms (1073 modules)
+ ✓ Compiled /api/career-quest/generate-roadmap in 320ms (690 modules)
+
+🌐 ========== API: /api/career-quest/generate-roadmap ==========
+📥 Request body received
+📝 Role ID: user-goal-embed-systems
+📝 Role Name: Embed systems
+📝 Domain ID:
+📊 Starting Level: 2
+📊 Has Assessment Data: false
+⏰ Timestamp: 2025-11-02T05:08:18.922Z
+🔑 API Key available: true
+🔑 API Key length: 39
+🔑 API Key starts with: AIzaSyDA45...
+🤖 Initializing Google Generative AI client...
+🔧 Getting generative model: gemini-2.5-flash
+✅ Model initialized successfully
+📝 Generated prompt length: 4921
+📤 Sending request to Gemini API...
+✅ Received response from Gemini API
+📏 Response length: 16884
+📄 First 200 chars: ```json
+{
+  "careerTitle": "Top-Tier Embedded Systems Professional",
+  "roadmap": [
+    {
+      "unitNumber": 1,
+      "unitTitle": "Unit 1: Digital Electronics & C Programming Primer",
+      "status"
+🔧 Extracting JSON from response...
+📋 Extracted JSON length: 16872
+🔧 Parsing JSON...
+✅ JSON parsed successfully
+📊 Roadmap units count: 18
+🔧 Transforming AI response to internal format...
+📦 Processing unit 1: Unit 1: Digital Electronics & C Programming Primer
+   Nodes count: 6
+📦 Processing unit 2: Unit 2: Microcontroller Introduction & Low-Level Interaction
+   Nodes count: 6
+📦 Processing unit 3: Unit 3: Embedded C Programming & Toolchain Mastery
+   Nodes count: 6
+📦 Processing unit 4: Unit 4: Microcontroller Peripherals & GPIO Control
+   Nodes count: 6
+📦 Processing unit 5: Unit 5: Essential Communication Protocols
+   Nodes count: 6
+📦 Processing unit 6: Unit 6: Timers, Interrupts & Real-Time Events
+   Nodes count: 6
+📦 Processing unit 7: Unit 7: Analog Interfacing (ADC, DAC) & Sensor Integration
+   Nodes count: 6
+📦 Processing unit 8: Unit 8: Real-Time Operating Systems (RTOS) Core Concepts
+   Nodes count: 6
+📦 Processing unit 9: Unit 9: Memory Management & Optimization
+   Nodes count: 6
+📦 Processing unit 10: Unit 10: Advanced RTOS & System Design Principles
+   Nodes count: 6
+📦 Processing unit 11: Unit 11: Embedded Networking & IoT Fundamentals
+   Nodes count: 6
+📦 Processing unit 12: Unit 12: Debugging, Testing & Validation Techniques
+   Nodes count: 6
+📦 Processing unit 13: Unit 13: Power Management & Low-Power Design
+   Nodes count: 6
+📦 Processing unit 14: Unit 14: Introduction to Advanced Architectures & Platforms
+   Nodes count: 6
+📦 Processing unit 15: Unit 15: Firmware Best Practices & Software Design Patterns for Embedded
+   Nodes count: 6
+📦 Processing unit 16: Unit 16: Interview Preparation: Technical Deep Dive
+   Nodes count: 6
+📦 Processing unit 17: Unit 17: Interview Preparation: Soft Skills & System Design
+   Nodes count: 6
+📦 Processing unit 18: Unit 18: Continuous Upskilling & Emerging Technologies
+   Nodes count: 6
+✅ Successfully transformed AI response
+📊 Final units count: 18
+📊 Total nodes across all units: 108
+🌐 ========== API COMPLETE (SUCCESS) ==========
+
+ POST /api/career-quest/generate-roadmap 200 in 51202ms
+ ○ Compiling /learning-module ...
+ ✓ Compiled /learning-module in 559ms (818 modules)
+ ✓ Compiled /api/course-roadmap in 208ms (462 modules)
+
+🌐 ========== API: /api/course-roadmap ==========
+📥 Request body received
+📝 Course ID: node_1
+📝 Course Title: Basic Electrical & Circuit Theory (Ohm's, Kirchhoff's)
+📝 Career Field: Embed systems
+⏰ Timestamp: 2025-11-02T05:09:48.360Z
+🔑 API Key available: true
+🔑 API Key length: 39
+🔑 API Key starts with: AIzaSyDA45...
+🤖 Initializing Google Generative AI client...
+🔧 Getting generative model: gemini-2.5-flash
+✅ Model initialized successfully
+📝 Generated prompt length: 2894
+📤 Sending request to Gemini API...
+✅ Received response from Gemini API
+📏 Response length: 12119
+📄 First 200 chars: ```json
+{
+  "courseTitle": "Basic Electrical & Circuit Theory (Ohm's, Kirchhoff's)",
+  "complexityLevel": "beginner",
+  "syllabus": [
+    {
+      "type": "lecture",
+      "id": "lec_1",
+      "title":
+🔧 Extracting JSON from response...
+📋 Extracted JSON length: 12107
+🔧 Parsing JSON...
+✅ JSON parsed successfully
+📊 Course Title: Basic Electrical & Circuit Theory (Ohm's, Kirchhoff's)
+📊 Syllabus items count: 32
+🔧 Validating syllabus items...
+📦 Syllabus item 1: type = lecture, title = Introduction to Electricity: Charge, Current, Voltage, Resistance
+📦 Syllabus item 2: type = cheat-sheet, title = Cheat Sheet: Core Electrical Concepts & Units
+📦 Syllabus item 3: type = quiz, title = Quiz 1: Fundamentals of Electricity
+📦 Syllabus item 4: type = lecture, title = Basic Circuit Components & Schematics (Resistors, Batteries, Switches, Wires)
+📦 Syllabus item 5: type = cheat-sheet, title = Cheat Sheet: Common Circuit Symbols & Components
+📦 Syllabus item 6: type = quiz, title = Quiz 2: Circuit Components & Diagram Interpretation
+📦 Syllabus item 7: type = task, title = Project: Build and Test a Simple LED Circuit
+📦 Syllabus item 8: type = lecture, title = Ohm's Law: Relationship between V, I, R & Electrical Power
+📦 Syllabus item 9: type = cheat-sheet, title = Cheat Sheet: Ohm's Law & Power Formulas
+📦 Syllabus item 10: type = quiz, title = Quiz 3: Applying Ohm's Law and Power Calculations
+📦 Syllabus item 11: type = task, title = Project: Ohm's Law Verification with a Multimeter
+📦 Syllabus item 12: type = lecture, title = Series Circuits: Characteristics, Equivalent Resistance, Voltage Division
+📦 Syllabus item 13: type = cheat-sheet, title = Cheat Sheet: Series Circuit Rules
+📦 Syllabus item 14: type = quiz, title = Quiz 4: Analyzing Series Circuits
+📦 Syllabus item 15: type = lecture, title = Parallel Circuits: Characteristics, Equivalent Resistance, Current Division
+📦 Syllabus item 16: type = cheat-sheet, title = Cheat Sheet: Parallel Circuit Rules
+📦 Syllabus item 17: type = quiz, title = Quiz 5: Analyzing Parallel Circuits
+📦 Syllabus item 18: type = task, title = Project: Series vs. Parallel Circuit Behavior Comparison
+📦 Syllabus item 19: type = lecture, title = Combination (Series-Parallel) Circuits: Step-by-Step Analysis
+📦 Syllabus item 20: type = cheat-sheet, title = Cheat Sheet: Analyzing Series-Parallel Circuits
+📦 Syllabus item 21: type = quiz, title = Quiz 6: Solving Complex Resistive Networks
+📦 Syllabus item 22: type = task, title = Project: Design and Analyze a Resistive Voltage Divider Network
+📦 Syllabus item 23: type = lecture, title = Kirchhoff's Current Law (KCL): The Junction Rule
+📦 Syllabus item 24: type = cheat-sheet, title = Cheat Sheet: Kirchhoff's Current Law
+📦 Syllabus item 25: type = quiz, title = Quiz 7: Understanding KCL Applications
+📦 Syllabus item 26: type = lecture, title = Kirchhoff's Voltage Law (KVL): The Loop Rule
+📦 Syllabus item 27: type = cheat-sheet, title = Cheat Sheet: Kirchhoff's Voltage Law
+📦 Syllabus item 28: type = quiz, title = Quiz 8: Understanding KVL Applications
+📦 Syllabus item 29: type = task, title = Project: Analyze a Multi-Loop Circuit using KCL and KVL
+📦 Syllabus item 30: type = lecture, title = Advanced KCL & KVL Problem Solving: Circuit Analysis Practice
+📦 Syllabus item 31: type = cheat-sheet, title = Cheat Sheet: Advanced KCL/KVL Techniques
+📦 Syllabus item 32: type = quiz, title = Final Quiz: Comprehensive Circuit Analysis
+✅ Successfully validated AI response
+🌐 ========== API COMPLETE (SUCCESS) ==========
+
+ POST /api/course-roadmap 200 in 38107ms
+ ✓ Compiled /learning-module/video-lecture in 451ms (853 modules)
+ ✓ Compiled in 571ms (401 modules)

@@ -98,31 +98,79 @@ function LearningModulePageContent() {
         }
 
         console.log("📝 Final course title:", courseTitle);
-        console.log("📤 Calling /api/course-roadmap...");
 
-        // Call our API to generate the course roadmap (Phase 1 - AI Architect)
-        const response = await fetch('/api/course-roadmap', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            courseId: nodeId,
-            courseTitle: courseTitle,
-            careerField: roleName
-          }),
-        });
+        // Check localStorage cache for course roadmap
+        const cacheKey = `courseRoadmap_${nodeId}_${roleName}`;
+        const cachedRoadmap = localStorage.getItem(cacheKey);
 
-        console.log("📥 Course Roadmap API response status:", response.status);
-        console.log("📥 Response OK:", response.ok);
+        let data;
 
-        if (!response.ok) {
-          const errorText = await response.text();
-          console.error("❌ API request failed:", errorText);
-          throw new Error(`Failed to load course roadmap: ${response.status}`);
+        if (cachedRoadmap) {
+          console.log("💾 Found cached course roadmap in localStorage");
+          try {
+            const parsedCache = JSON.parse(cachedRoadmap);
+            const cacheAge = Date.now() - (parsedCache.timestamp || 0);
+            const maxAge = 24 * 60 * 60 * 1000; // 24 hours
+
+            if (cacheAge < maxAge) {
+              console.log("✅ Cache is fresh (age:", Math.round(cacheAge / 1000 / 60), "minutes)");
+              console.log("📦 Using cached roadmap data");
+              data = parsedCache.data;
+            } else {
+              console.log("⚠️ Cache expired (age:", Math.round(cacheAge / 1000 / 60 / 60), "hours)");
+              localStorage.removeItem(cacheKey);
+              data = null;
+            }
+          } catch (parseError) {
+            console.error("❌ Error parsing cached roadmap:", parseError);
+            localStorage.removeItem(cacheKey);
+            data = null;
+          }
         }
-        
-        const data = await response.json();
+
+        // If no valid cache, fetch from API
+        if (!data) {
+          console.log("📤 Calling /api/course-roadmap...");
+
+          // Call our API to generate the course roadmap (Phase 1 - AI Architect)
+          const response = await fetch('/api/course-roadmap', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              courseId: nodeId,
+              courseTitle: courseTitle,
+              careerField: roleName
+            }),
+          });
+
+          console.log("📥 Course Roadmap API response status:", response.status);
+          console.log("📥 Response OK:", response.ok);
+
+          if (!response.ok) {
+            const errorText = await response.text();
+            console.error("❌ API request failed:", errorText);
+            throw new Error(`Failed to load course roadmap: ${response.status}`);
+          }
+
+          data = await response.json();
+
+          // Save to localStorage cache
+          try {
+            const cacheData = {
+              data: data,
+              timestamp: Date.now(),
+              version: '1.0'
+            };
+            localStorage.setItem(cacheKey, JSON.stringify(cacheData));
+            console.log("💾 Saved course roadmap to localStorage cache");
+          } catch (storageError) {
+            console.warn("⚠️ Failed to save to localStorage:", storageError);
+            // Continue anyway - caching is optional
+          }
+        }
+
         console.log("✅ Received course roadmap data:");
         console.log("📊 Course Title:", data.roadmap?.courseTitle);
         console.log("📊 Syllabus items count:", data.roadmap?.syllabus?.length || 0);

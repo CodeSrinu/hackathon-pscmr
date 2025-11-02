@@ -1,7 +1,7 @@
 // src/app/learning-module/video-lecture/page.tsx
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import SuspenseWrapper from '@/components/SuspenseWrapper';
 
@@ -44,7 +44,18 @@ function VideoLecturePageContent() {
   const [noteText, setNoteText] = useState('');
   const [doubtText, setDoubtText] = useState('');
 
+  // Use ref to prevent multiple API calls
+  const hasLoadedRef = useRef(false);
+  const loadedForLectureRef = useRef<string>('');
+
   useEffect(() => {
+    // Prevent multiple calls for the same lecture
+    const lectureKey = `${lectureId}-${lectureTitle}`;
+    if (hasLoadedRef.current && loadedForLectureRef.current === lectureKey) {
+      console.log("⏭️ Skipping duplicate API call for lecture:", lectureKey);
+      return;
+    }
+
     const loadLecture = async () => {
       try {
         console.log("\n🎯 ========== CLIENT: Loading Video Lecture ==========");
@@ -62,45 +73,113 @@ function VideoLecturePageContent() {
         const careerField = storedGoal || 'General';
         console.log("📝 Career Field from localStorage:", careerField);
 
-        console.log("📤 Calling /api/learning-module/lecture...");
+        // Check localStorage cache for lecture content
+        const lectureCacheKey = `lectureContent_${lectureId}_${moduleId}`;
+        const cachedLecture = localStorage.getItem(lectureCacheKey);
 
-        // Call our API to get the lecture content
-        const response = await fetch('/api/learning-module/lecture', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            lectureId,
-            moduleId,
-            moduleName: lectureTitle, // Use the specific lecture title instead of the course name
-            lectureTitle: lectureTitle, // Send the specific lecture title
-            careerField: careerField, // Pass career field for AI content generation
-            userId: 'default-user' // This would be dynamically determined
-          }),
-        });
+        let data;
 
-        console.log("📥 Lecture API response status:", response.status);
-        console.log("📥 Response OK:", response.ok);
+        if (cachedLecture) {
+          console.log("💾 Found cached lecture content in localStorage");
+          try {
+            const parsedCache = JSON.parse(cachedLecture);
+            const cacheAge = Date.now() - (parsedCache.timestamp || 0);
+            const maxAge = 24 * 60 * 60 * 1000; // 24 hours
 
-        if (!response.ok) {
-          const errorText = await response.text();
-          console.error("❌ API request failed:", errorText);
-          throw new Error(`Failed to load lecture content: ${response.status}`);
+            if (cacheAge < maxAge) {
+              console.log("✅ Cache is fresh (age:", Math.round(cacheAge / 1000 / 60), "minutes)");
+              console.log("📦 Using cached lecture data");
+              data = parsedCache.data;
+            } else {
+              console.log("⚠️ Cache expired (age:", Math.round(cacheAge / 1000 / 60 / 60), "hours)");
+              localStorage.removeItem(lectureCacheKey);
+              data = null;
+            }
+          } catch (parseError) {
+            console.error("❌ Error parsing cached lecture:", parseError);
+            localStorage.removeItem(lectureCacheKey);
+            data = null;
+          }
         }
-        
-        const data = await response.json();
+
+        // If no valid cache, fetch from API
+        if (!data) {
+          console.log("📤 Calling /api/learning-module/lecture...");
+
+          // Call our API to get the lecture content
+          const response = await fetch('/api/learning-module/lecture', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              lectureId,
+              moduleId,
+              moduleName: lectureTitle, // Use the specific lecture title instead of the course name
+              lectureTitle: lectureTitle, // Send the specific lecture title
+              careerField: careerField, // Pass career field for AI content generation
+              userId: 'default-user' // This would be dynamically determined
+            }),
+          });
+
+          console.log("📥 Lecture API response status:", response.status);
+          console.log("📥 Response OK:", response.ok);
+
+          if (!response.ok) {
+            const errorText = await response.text();
+            console.error("❌ API request failed:", errorText);
+            throw new Error(`Failed to load lecture content: ${response.status}`);
+          }
+
+          data = await response.json();
+
+          // Save to localStorage cache
+          try {
+            const cacheData = {
+              data: data,
+              timestamp: Date.now(),
+              version: '1.0'
+            };
+            localStorage.setItem(lectureCacheKey, JSON.stringify(cacheData));
+            console.log("💾 Saved lecture content to localStorage cache");
+          } catch (storageError) {
+            console.warn("⚠️ Failed to save to localStorage:", storageError);
+            // Continue anyway - caching is optional
+          }
+        }
+
         console.log("✅ Received lecture data:");
         console.log("📊 Lecture ID:", data.id);
         console.log("📊 Lecture Title:", data.title);
         console.log("📊 Video URL:", data.videoUrl);
         console.log("📊 Duration:", data.duration);
 
+        // Validate and clean video URL
+        let videoUrl = data.videoUrl || 'https://www.youtube.com/embed/O_9u1P5Yj4Q';
+
+        // Ensure it's a valid YouTube embed URL
+        if (videoUrl && !videoUrl.includes('/embed/')) {
+          // Convert watch URLs to embed URLs
+          if (videoUrl.includes('youtube.com/watch?v=')) {
+            const videoId = videoUrl.split('v=')[1]?.split('&')[0];
+            if (videoId) {
+              videoUrl = `https://www.youtube.com/embed/${videoId}`;
+              console.log("🔧 Converted watch URL to embed URL:", videoUrl);
+            }
+          } else if (videoUrl.includes('youtu.be/')) {
+            const videoId = videoUrl.split('youtu.be/')[1]?.split('?')[0];
+            if (videoId) {
+              videoUrl = `https://www.youtube.com/embed/${videoId}`;
+              console.log("🔧 Converted short URL to embed URL:", videoUrl);
+            }
+          }
+        }
+
         const lectureData: VideoLecture = {
           id: data.id || lectureId,
-          title: data.title || 'Video Lecture',
+          title: data.title || lectureTitle || 'Video Lecture',
           description: data.description || 'Learn the fundamentals of your chosen topic',
-          videoUrl: data.videoUrl || 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+          videoUrl: videoUrl,
           duration: data.duration || '15 minutes',
           moduleId: data.moduleId || moduleId,
           moduleName: data.moduleName || moduleName,
@@ -111,6 +190,11 @@ function VideoLecturePageContent() {
         console.log("✅ Setting lecture state...");
         console.log("📊 Has Transcript:", !!lectureData.transcript);
         console.log("📊 Has Cheat Sheet:", !!lectureData.cheatSheet);
+
+        // Mark as loaded
+        hasLoadedRef.current = true;
+        loadedForLectureRef.current = lectureKey;
+
         setLecture(lectureData);
         console.log("🎯 ========== CLIENT: Video Lecture Loaded Successfully ==========\n");
       } catch (err: any) {
@@ -133,19 +217,24 @@ function VideoLecturePageContent() {
         };
 
         console.log("✅ Setting mock lecture...");
+
+        // Mark as loaded even on error
+        hasLoadedRef.current = true;
+        loadedForLectureRef.current = lectureKey;
+
         setLecture(mockLecture);
         console.error("🎯 ========== CLIENT: Error Handled with Fallback ==========\n");
       } finally {
         setLoading(false);
       }
     };
-    
+
     if (lectureId) {
       loadLecture();
     } else {
       setError('No lecture specified');
     }
-  }, [lectureId, moduleId, moduleName]);
+  }, [lectureId, moduleId, moduleName, lectureTitle]);
 
   const handleBack = () => {
     console.log("\n🔙 ========== NAVIGATION: Back Button Clicked ==========");

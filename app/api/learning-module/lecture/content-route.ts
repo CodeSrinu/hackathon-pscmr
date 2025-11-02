@@ -86,9 +86,9 @@ export async function POST(request: Request) {
     // Initialize the Google Generative AI client
     const genAI = new GoogleGenerativeAI(apiKey);
 
-    // FIXED: Using gemini-2.5-flash instead of gemini-1.5-flash
-    console.log("🔧 Getting generative model: gemini-2.5-flash");
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    // Using gemini-1.5-flash (correct model name)
+    console.log("🔧 Getting generative model: gemini-1.5-flash");
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     console.log("✅ Model initialized successfully");
     
@@ -228,39 +228,77 @@ Your final output MUST be a single, clean, valid JSON object.
 
 // Default lecture content for fallback
 function getDefaultLectureContent(lectureTitle: string, courseTitle: string, careerField: string): LectureContent {
+  // Use a generic educational video as fallback instead of a meme
+  const fallbackVideoUrl = 'https://www.youtube.com/embed/O_9u1P5Yj4Q'; // Generic educational content
+
   return {
     id: 'default',
     title: lectureTitle,
     description: `Learn the fundamentals of ${lectureTitle}`,
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder video
-    transcript: `This is a placeholder transcript for the lecture on ${lectureTitle}. In a real implementation, this would contain a detailed summary of the video content, including key concepts, examples, and explanations.`,
+    videoUrl: fallbackVideoUrl,
+    transcript: `This is a placeholder transcript for the lecture on ${lectureTitle}.
+
+The AI content generation is currently unavailable. This lecture would normally contain:
+
+1. Introduction to ${lectureTitle}
+2. Core concepts and principles
+3. Practical examples and demonstrations
+4. Best practices and common patterns
+5. Real-world applications
+
+Please check back later or contact support if this issue persists.`,
     cheatSheet: `## ${lectureTitle} - Cheat Sheet
+
+### Overview
+This cheat sheet covers the fundamentals of ${lectureTitle} in the context of ${courseTitle}.
 
 ### Key Concepts
 - Fundamental principles of ${lectureTitle}
 - Core techniques and best practices
 - Common patterns and approaches
+- Industry-standard methodologies
 
 ### Pro Tips
 - Start with simple examples to build understanding
 - Practice regularly to reinforce concepts
 - Seek feedback from peers and mentors
+- Build projects to apply what you learn
+- Join communities to learn from others
 
 ### Common Pitfalls
 - Don't skip fundamentals in favor of advanced topics
 - Avoid copying code without understanding it
-- Don't neglect testing and validation`,
+- Don't neglect testing and validation
+- Remember to document your learning journey
+
+### Next Steps
+1. Watch the video lecture carefully
+2. Take notes on key concepts
+3. Complete the practice exercises
+4. Review the cheat sheet regularly
+5. Apply concepts in real projects`,
     quiz: [
       {
-        question: `What is the most important aspect of ${lectureTitle}?`,
+        question: `What is the most important aspect of learning ${lectureTitle}?`,
         options: [
-          "Memorizing syntax",
-          "Understanding concepts",
-          "Watching videos",
-          "Reading documentation"
+          "Memorizing syntax and commands",
+          "Understanding core concepts and principles",
+          "Watching videos without practice",
+          "Reading documentation only"
         ],
-        correctAnswer: "Understanding concepts",
-        explanation: "Understanding concepts is more important than memorizing syntax."
+        correctAnswer: "Understanding core concepts and principles",
+        explanation: "Understanding concepts is more important than memorizing syntax. It allows you to apply knowledge in different contexts and solve new problems."
+      },
+      {
+        question: `What is the best way to master ${lectureTitle}?`,
+        options: [
+          "Watch videos only",
+          "Read theory only",
+          "Combine theory with hands-on practice",
+          "Copy code from others"
+        ],
+        correctAnswer: "Combine theory with hands-on practice",
+        explanation: "The most effective learning combines theoretical understanding with practical application through projects and exercises."
       }
     ],
     courseTitle: courseTitle
