@@ -18,7 +18,7 @@ const nextConfig = {
               font-src 'self' https://fonts.gstatic.com data:;
               img-src 'self' https: data: blob:;
               media-src 'self' https://www.youtube.com https://i.ytimg.com https://*.youtube.com https://*.google.com https://*.gstatic.com https://youtube.com https://www.youtube-nocookie.com https://www.youtubeeducation.com https://www-onepick-opensocial.googleusercontent.com https://www.google.com https://ssl.gstatic.com https://www.gstatic.com https://www.googletagmanager.com https://www.google-analytics.com https://*.doubleclick.net https://*.googleapis.com https://www.googleadservices.com https://tpc.googlesyndication.com https://www.youtubekids.com;
-              connect-src 'self' https://generativelanguage.googleapis.com;
+              connect-src 'self' https://generativelanguage.googleapis.com https://www.googleapis.com https://accounts.google.com https://oauth2.googleapis.com https://www.google-analytics.com https://*.google-analytics.com;
               frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://*.youtube.com https://*.google.com https://*.gstatic.com https://youtube.com https://www.youtubeeducation.com https://www-onepick-opensocial.googleusercontent.com https://www.google.com https://ssl.gstatic.com https://www.gstatic.com https://www.googletagmanager.com https://www.google-analytics.com https://*.doubleclick.net https://*.googleapis.com https://www.googleadservices.com https://tpc.googlesyndication.com https://www.youtubekids.com;
               child-src 'self' https://www.youtube.com https://www.youtube-nocookie.com;
               object-src 'self' blob: data:;
