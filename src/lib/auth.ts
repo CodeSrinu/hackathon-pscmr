@@ -50,7 +50,7 @@ export const authOptions: NextAuthOptions = {
           return {
             id: data.user.id,
             email: data.user.email,
-            name: data.user.user_metadata?.full_name || data.user.email?.split('@')[0],
+            name: data.user.user_metadata?.full_name || data.user.email?.split('@')[0] || data.user.email,
           };
         }
 
@@ -73,8 +73,10 @@ export const authOptions: NextAuthOptions = {
       if (account) {
         token.accessToken = account.access_token;
       }
+      // The profile type varies depending on the provider
+      // For Google provider, we check for sub from account.providerAccountId
       if (profile) {
-        token.sub = profile.id;
+        token.sub = profile.sub ?? token.sub;
       }
       return token;
     },
