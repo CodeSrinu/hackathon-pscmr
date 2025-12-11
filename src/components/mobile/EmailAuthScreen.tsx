@@ -11,7 +11,7 @@ export default function EmailAuthScreen() {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  
+
   const router = useRouter();
   const { status } = useSession();
 
@@ -47,7 +47,7 @@ export default function EmailAuthScreen() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!validateInputs()) {
       return;
     }
@@ -73,7 +73,7 @@ export default function EmailAuthScreen() {
       } else {
         // Handle signup - create user in Supabase Auth
         const { createClient } = await import('@supabase/supabase-js');
-        
+
         const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
         const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
@@ -143,10 +143,18 @@ export default function EmailAuthScreen() {
             {isLogin ? 'Welcome Back' : 'Create Account'}
           </h1>
           <h3 className="text-lg text-[#666666] mt-4">
-            {isLogin 
-              ? 'Sign in to continue your career journey' 
+            {isLogin
+              ? 'Sign in to continue your career journey'
               : 'Start your career journey with us'}
           </h3>
+
+          {/* Demo credentials hint */}
+          {isLogin && (
+            <div className="mt-4 p-3 bg-[#e8f3e9] rounded-lg text-sm">
+              <span className="font-medium text-[#333333]">Demo: </span>
+              <span className="text-[#666666]">demo@careerquest.com / demo123</span>
+            </div>
+          )}
         </div>
 
         {/* Email Authentication Form */}
@@ -205,9 +213,8 @@ export default function EmailAuthScreen() {
             <button
               type="submit"
               disabled={loading}
-              className={`w-full bg-[#3fe44a] text-white font-bold py-3 px-4 rounded-lg shadow-sm ${
-                loading ? 'opacity-70 cursor-not-allowed' : 'hover:bg-[#34c741]'
-              }`}
+              className={`w-full bg-[#3fe44a] text-white font-bold py-3 px-4 rounded-lg shadow-sm ${loading ? 'opacity-70 cursor-not-allowed' : 'hover:bg-[#34c741]'
+                }`}
             >
               {loading ? 'Processing...' : isLogin ? 'Sign In' : 'Sign Up'}
             </button>
@@ -223,8 +230,8 @@ export default function EmailAuthScreen() {
               }}
               className="text-[#3fe44a] font-medium text-sm underline"
             >
-              {isLogin 
-                ? "Don't have an account? Sign up" 
+              {isLogin
+                ? "Don't have an account? Sign up"
                 : "Already have an account? Sign in"}
             </button>
           </div>

@@ -18,48 +18,33 @@ export const authOptions: NextAuthOptions = {
       async authorize(credentials) {
         if (!credentials?.email || !credentials?.password) {
           console.error('Email and password are required');
-          return null; // Return null instead of throwing to be handled by NextAuth
-        }
-
-        // For email/password authentication, we're using Supabase
-        try {
-          const { createClient } = await import('@supabase/supabase-js');
-          
-          const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-          const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-          if (!supabaseUrl || !supabaseAnonKey) {
-            console.error('Missing Supabase configuration');
-            return null; // Return null instead of throwing to be handled by NextAuth
-          }
-
-          const supabase = createClient(supabaseUrl, supabaseAnonKey);
-
-          // Try to get user from Supabase auth
-          const { data, error } = await supabase.auth.signInWithPassword({
-            email: credentials.email,
-            password: credentials.password,
-          });
-
-          if (error) {
-            console.error('Authentication error:', error);
-            return null; // Return null instead of throwing to be handled by NextAuth
-          }
-
-          // If login is successful, return user data
-          if (data?.user) {
-            return {
-              id: data.user.id,
-              email: data.user.email,
-              name: data.user.user_metadata?.full_name || data.user.email?.split('@')[0] || data.user.email,
-            };
-          }
-
-          return null; // Return null instead of throwing to be handled by NextAuth
-        } catch (error) {
-          console.error('Error during authorization:', error);
           return null;
         }
+
+        // Demo credentials for testing (no external database required)
+        const DEMO_USERS = [
+          { id: 'demo-user-1', email: 'demo@careerquest.com', password: 'demo123', name: 'Demo User' },
+          { id: 'demo-user-2', email: 'test@test.com', password: 'test123', name: 'Test User' },
+          { id: 'demo-user-3', email: 'user@example.com', password: 'user123', name: 'Example User' },
+        ];
+
+        // Check if credentials match a demo user
+        const demoUser = DEMO_USERS.find(
+          user => user.email === credentials.email && user.password === credentials.password
+        );
+
+        if (demoUser) {
+          console.log('✅ Demo user authenticated:', demoUser.email);
+          return {
+            id: demoUser.id,
+            email: demoUser.email,
+            name: demoUser.name,
+          };
+        }
+
+        // No match found
+        console.error('❌ Invalid credentials. Use demo credentials.');
+        return null;
       }
     })
   ],
@@ -78,7 +63,7 @@ export const authOptions: NextAuthOptions = {
       if (token?.sub && session.user) {
         session.user.id = token.sub;
       }
-      
+
       // Ensure session is properly structured
       return {
         ...session,
@@ -97,12 +82,12 @@ export const authOptions: NextAuthOptions = {
       if (profile) {
         token.sub = profile.sub ?? token.sub;
       }
-      
+
       // Include user id in token for consistency
       if (user) {
         token.sub = user.id ?? token.sub;
       }
-      
+
       return token;
     },
     async redirect({ url, baseUrl }) {
