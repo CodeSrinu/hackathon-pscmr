@@ -22,7 +22,7 @@ export default function Home() {
 function HomePageContent() {
   const { data: session, status } = useSession();
   const searchParams = useSearchParams();
-  const [currentStep, setCurrentStep] = useState<'login' | 'onboarding' | 'psychologyQuiz' | 'results' | 'roleDeepDive'>('login');
+  const [currentStep, setCurrentStep] = useState<'login' | 'onboarding' | 'psychologyQuiz' | 'results' | 'roleDeepDive'>('onboarding');
   const [onboardingData, setOnboardingData] = useState<{
     language: string;
     state: string;
@@ -37,7 +37,8 @@ function HomePageContent() {
 
   // Check if user is already logged in
   useEffect(() => {
-    if (status === 'authenticated') {
+    // Auth check disabled - treat as authenticated
+    if (true) {
       // Check for deep-dive parameters
       const deepDive = searchParams?.get('deepDive');
       if (deepDive === 'true') {
@@ -45,9 +46,9 @@ function HomePageContent() {
         const roleName = searchParams?.get('roleName') || '';
         const personaContext = searchParams?.get('personaContext') || '';
         const roleRank = parseInt(searchParams?.get('roleRank') || '1', 10);
-        
+
         console.log('Deep-dive parameters found:', { roleId, roleName, personaContext, roleRank });
-        
+
         if (roleId && roleName) {
           setSelectedRoleId(roleId);
           setSelectedRoleName(roleName);
@@ -57,24 +58,26 @@ function HomePageContent() {
           return;
         }
       }
-      
-      // If we're still on the login step, check if we should skip onboarding
-      if (currentStep === 'login') {
+
+      // If we're still on the login step or default onboarding, check if we should skip
+      if (currentStep === 'login' || currentStep === 'onboarding') {
         // Check if we should skip onboarding (coming from goal validation)
         const skipOnboarding = searchParams?.get('skipOnboarding') === 'true';
-        
+
         if (skipOnboarding) {
           setCurrentStep('psychologyQuiz');
         } else {
           setCurrentStep('onboarding');
         }
       }
-    } else if (status === 'unauthenticated') {
+    }
+    // Auth check disabled
+    /* else if (status === 'unauthenticated') {
       // If user is not authenticated, make sure we're on login step
       if (currentStep !== 'login') {
         setCurrentStep('login');
       }
-    }
+    } */
   }, [status, currentStep, searchParams]);
 
   const handleGoogleLogin = () => {
@@ -83,7 +86,7 @@ function HomePageContent() {
     localStorage.removeItem('userState');
     localStorage.removeItem('userGoal');
     localStorage.removeItem('psychologyAnswers');
-    
+
     signIn('google', { callbackUrl: '/' });
   };
 
@@ -96,11 +99,11 @@ function HomePageContent() {
     setOnboardingData(data);
     localStorage.setItem('userLanguage', data.language);
     localStorage.setItem('userState', data.state);
-    
+
     if (data.hasGoal) {
       localStorage.setItem('userGoal', data.goal);
     }
-    
+
     // Always show the psychology quiz
     setCurrentStep('psychologyQuiz');
   };
@@ -137,16 +140,16 @@ function HomePageContent() {
     signOut({ callbackUrl: '/' });
   };
 
-  // Show login screen if user is not authenticated
-  if (status === 'unauthenticated' || currentStep === 'login') {
+  // Show login screen if user is not authenticated - DISABLED
+  /* if (status === 'unauthenticated' || currentStep === 'login') {
     return <LoginScreen />;
-  }
+  } */
 
   // Show onboarding screen
   if (currentStep === 'onboarding') {
     return (
-      <OnboardingScreen 
-        onContinue={handleOnboardingComplete} 
+      <OnboardingScreen
+        onContinue={handleOnboardingComplete}
       />
     );
   }
@@ -154,7 +157,7 @@ function HomePageContent() {
   // Show psychology quiz
   if (currentStep === 'psychologyQuiz') {
     return (
-      <PsychologyQuiz 
+      <PsychologyQuiz
         onComplete={handlePsychologyQuizComplete}
         onBack={() => setCurrentStep('onboarding')}
       />
@@ -164,7 +167,7 @@ function HomePageContent() {
   // Show results page with AI-generated recommendations
   if (currentStep === 'results') {
     return (
-      <ResultsPage 
+      <ResultsPage
         answers={psychologyAnswers}
         onBack={() => setCurrentStep('psychologyQuiz')}
         onSelectRole={handleRoleSelect}
@@ -176,7 +179,7 @@ function HomePageContent() {
   if (currentStep === 'roleDeepDive') {
     console.log('Rendering RoleDeepDivePage with props:', { selectedRoleId, selectedRoleName, personaContext, selectedRoleRank });
     return (
-      <RoleDeepDivePage 
+      <RoleDeepDivePage
         roleId={selectedRoleId}
         roleName={selectedRoleName}
         personaContext={personaContext}
