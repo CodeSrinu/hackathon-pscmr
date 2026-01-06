@@ -1,26 +1,31 @@
 'use client';
 
-import { useSession, signOut } from 'next-auth/react';
+// import { useSession, signOut } from 'next-auth/react'; // Disabled authentication
 import { useRouter } from 'next/navigation';
-import { useEffect } from 'react';
+// import { useEffect } from 'react'; // Removed as useEffect is commented out
 
 export default function ProfilePage() {
-    const { data: session, status } = useSession();
+    // const { data: session, status } = useSession(); // Disabled authentication
     const router = useRouter();
 
-    useEffect(() => {
-        if (status === 'unauthenticated') {
-            router.push('/');
+    // Mock session data for no-auth mode
+    const session = {
+        user: {
+            name: 'Demo User',
+            email: 'demo@careerquest.com',
+            id: 'demo-user-1'
         }
-    }, [status, router]);
+    };
 
-    if (status === 'loading') {
-        return (
-            <div className="min-h-screen bg-gradient-to-br from-[#E8F5E9] to-[#BBDEFB] flex items-center justify-center p-4">
-                <div className="animate-pulse text-[#66BB6A] text-xl">Loading...</div>
-            </div>
-        );
-    }
+    /* Authentication disabled - no redirect or loading states needed */
+
+    /* Authentication disabled - no redirect
+    useEffect(() => {
+      if (status === 'unauthenticated') {
+        router.push('/');
+      }
+    }, [status, router]);
+    */
 
     if (!session) {
         return null;
@@ -95,12 +100,14 @@ export default function ProfilePage() {
                         Explore Domains
                     </button>
 
-                    <button
-                        onClick={() => signOut({ callbackUrl: '/' })}
-                        className="w-full bg-white text-[#D32F2F] border-2 border-[#D32F2F] font-semibold py-4 px-6 rounded-xl hover:bg-[#FFEBEE] transition-all duration-300"
-                    >
-                        Sign Out
-                    </button>
+                    {/* Sign out disabled
+          <button
+            onClick={() => signOut({ callbackUrl: '/' })}
+            className="w-full bg-white text-[#D32F2F] border-2 border-[#D32F2F] font-semibold py-4 px-6 rounded-xl hover:bg-[#FFEBEE] transition-all duration-300"
+          >
+            Sign Out
+          </button>
+          */}
                 </div>
             </div>
         </div>
